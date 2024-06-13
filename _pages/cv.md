@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: cv
 permalink: 
 title: 
 nav: true
