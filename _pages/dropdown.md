@@ -3,9 +3,9 @@ layout: page
 title: submenus
 nav: true
 nav_order: 8
-dropdown: true
+dropdown: false
 children:
-  - title: publications
+  - title: research
     permalink: /publications/
   - title: divider
   - title: projects
