@@ -2,7 +2,7 @@
 
 layout: teaching
 title: teaching
-permalink: /
+permalink: /teaching/
 subtitle: 
 
 ---
