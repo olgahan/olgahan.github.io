@@ -1,10 +1,10 @@
 ---
-layout: page
-permalink: 
+
+layout: teaching
 title: teaching
-description: 
-nav: true
-nav_order: 3
+permalink: /
+subtitle: 
+
 ---
 
 You can access two of my course evaluations below:
