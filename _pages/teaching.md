@@ -1,15 +1,21 @@
 ---
-
-layout: teaching
-title: teaching
-permalink: 
-subtitle: 
-
+layout: page
+title: "Teaching"
+permalink: /teaching/
 ---
 
-You can access two of my course evaluations below:
+Here’s a list of my teaching experience and materials.
 
-<a href='assets/pdf/mop.pdf'>Math of Politics (Co-Instructor)</a>
+## Courses
 
-<a href='assets/pdf/st.pdf'>Suicide Terrorism (Teaching Assistant)</a>
+- **Political Violence**  
+  Brown University, Fall 2025
 
+- **Causal Inference (PhD)**  
+  Brown University, Fall 2025
+
+- **Statistics II**  
+  Brown University, Spring 2026
+
+  - **Experimental Methods**  
+  Brown University, Spring 2026
