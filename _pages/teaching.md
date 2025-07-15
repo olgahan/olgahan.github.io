@@ -2,6 +2,8 @@
 layout: page
 title: "Teaching"
 permalink: /teaching/
+nav: true
+nav_order: 3
 ---
 
 Here’s a list of my teaching experience and materials.
