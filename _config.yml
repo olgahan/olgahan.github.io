@@ -52,6 +52,14 @@ footer_fixed: true
 search_enabled: true
 socials_in_search: true
 
+
+#header
+
+header_pages:
+  - about.md
+  - research.md
+  - teaching.md
+
 # Dimensions
 max_width: 930px
 
