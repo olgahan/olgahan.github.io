@@ -3,7 +3,7 @@ layout:
 permalink: 
 title: 
 description: members of the lab or group
-nav: true
+nav: false
 nav_order: 7
 
 profiles:
