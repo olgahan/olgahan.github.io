@@ -7,20 +7,18 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-<div class="publications">
-
-{% bibliography %}
-
-</div>
-
-
-# Publications
-
-{% bibliography --filter='type:published' --sort=year desc %}
+## Publications
+{% assign pubs = site.data.publications | where: "type", "publication" %}
+{% for pub in pubs %}
+- **{{ pub.title }}**, {{ pub.authors }}, _{{ pub.venue }}_ ({{ pub.year }})  
+  {% if pub.link %}[{{ pub.link_label | default: "PDF" }}]({{ pub.link }}){% endif %}
+{% endfor %}
 
 ---
 
-# Working Papers
-
-{% bibliography --filter='type:working_paper' --sort=year desc %}
+## Working Papers
+{% assign wps = site.data.publications | where: "type", "working-paper" %}
+{% for wp in wps %}
+- **{{ wp.title }}**, {{ wp.authors }} ({{ wp.year }})  
+  {% if wp.link %}[{{ wp.link_label | default: "Draft" }}]({{ wp.link }}){% endif %}
+{% endfor %}
