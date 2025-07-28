@@ -1,0 +1,61 @@
+- title: "Aiding War: Foreign Aid and the Intensity of Violent Armed Conflict"
+  authors: "Michael Findley, Joseph K. Young, Daniel Strandow, and Olgahan Cat"
+  venue: "International Studies Quarterly"
+  year: 2023
+  volume: 67
+  number: 3
+  publisher: "Oxford University Press"
+  type: "publication"
+  link_label: "PDF"  # change or delete if not available
+  link: "/assets/pdf/isq.pdf"           # add link if you have it
+
+- title: "A Field Experiment Using Social Media Ads to Encourage COVID-19 Vaccination"
+  authors: "Olgahan Çat, Jiseon Chang, Roman Hlatky, Huimin Li, and Daniel Nielson"
+  venue: "PNAS Nexus"
+  year: 2024
+  volume: 3
+  number: 8
+  publisher: "Oxford University Press"
+  type: "publication"
+  link_label: "PDF"  # change or delete if not available
+  link: "/assets/pdf/pnasnexus.pdf"           # add link if you have it
+
+- title: "Fleeing (in)voluntarily: How Projected Patriotism Affects Attitudes Towards Conflict Migrants"
+  authors: "Olgahan Cat"
+  year: 2025
+  type: "working-paper"
+  note: "Available upon request"
+  link_label: "Draft"  # optional
+  link: "/assets/pdf/Olgahan_JMP.pdf"             # optional
+
+  - title: "Projected Patriotism and Its Determinants"
+  authors: "Olgahan Cat"
+  year: 2025
+  type: "working-paper"
+  note: "Available upon request"
+  link_label: "Draft"  # optional
+  link: ""             # optional
+
+  - title: "Public Attitudes Toward AI Use in Asylum Decisions"
+  authors: "Olgahan Cat"
+  year: 2025
+  type: "working-paper"
+  note: "Available upon request"
+  link_label: "Pre-Analysis Plan"  # optional
+  link: "/assets/pdf/PAP_AI.pdf"             # optional
+
+  - title: "Public Preferences Over U.S. Foreign Aid and Border Enforcement"
+  authors: "Olgahan Cat"
+  year: 2025
+  type: "working-paper"
+  note: "Available upon request"
+  link_label: "Pre-Analysis Plan"  # optional
+  link: "/assets/pdf/PAP_AID.pdf"             # optional
+
+  - title: "Migration Experience and Attitudes toward Immigration"
+  authors: "Olgahan Cat"
+  year: 2025
+  type: "working-paper"
+  note: "Available upon request"
+  link_label: "Pre-Analysis Plan"  # optional
+  link: "/assets/pdf/PAP_GC.pdf"             # optional
