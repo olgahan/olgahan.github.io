@@ -10,7 +10,7 @@ nav_order: 2
 ## Publications
 {% assign pubs = site.data.publications | where: "type", "publication" %}
 {% for pub in pubs %}
-- **{{ pub.title }}**, {{ pub.authors }}, _{{ pub.venue }}_ ({{ pub.year }})  
+- **{{ pub.title }}**{% if pub.coauthors %}, ({{ pub.coauthors }}){% endif %}, _{{ pub.venue }}_ ({{ pub.year }})  
   {% if pub.link %}[{{ pub.link_label | default: "PDF" }}]({{ pub.link }}){% endif %}
 {% endfor %}
 
@@ -19,6 +19,6 @@ nav_order: 2
 ## Working Papers
 {% assign wps = site.data.publications | where: "type", "working-paper" %}
 {% for wp in wps %}
-- **{{ wp.title }}**, {{ wp.authors }} ({{ wp.year }})  
+- **{{ wp.title }}**{% if wp.coauthors %}, ({{ wp.coauthors }}){% endif %} ({{ wp.year }})  
   {% if wp.link %}[{{ wp.link_label | default: "Draft" }}]({{ wp.link }}){% endif %}
 {% endfor %}
