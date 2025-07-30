@@ -9,18 +9,8 @@
   link_label: "PDF"
   link: "/assets/pdf/isq.pdf"
 
-#Abstract: Does foreign aid reduce violence during ongoing wars? In the policy community, there has been growing optimism about the
-prospect for aid to improve conflict-affected and fragile areas. We investigate whether foreign aid decreases, or even increases,
-violence during ongoing armed conflict. We advance a theoretical argument that concentrated foreign assistance allocated
-during ongoing armed conflicts increases military fatalities but decreases civilian fatalities. Using geographically coded data
-on all sub-Saharan African countries in conflict between 1989 and 2008, within a matching frontier design and supplemented
-by instrumental variable analysis, we find strong substantive and statistical support for our expectations about military conflict
-intensity though less support for the expectations about civilian fatalities. The paper provides novel insights about the effects
-of concentrated aid on military versus civilian conflict intensity, characterizes the effects at a sub-national level, and expands
-the spatial-temporal period of the analysis. We also probe the plausibility of the causal mechanism using interview evidence
-drawn from ex-commanders of the Lord’s Resistance Army and generals of the Ugandan People’s Defence Forces in northern
-Uganda. The paper offers both academic and policy insights, including that foreign aid allocated during ongoing wars may
-be more problematic than it is helpful.
+#Abstract: Does foreign aid reduce violence during ongoing wars? In the policy community, there has been growing optimism about the prospect for aid to improve conflict-affected and fragile areas. We investigate whether foreign aid decreases, or even increases, violence during ongoing armed conflict. We advance a theoretical argument that concentrated foreign assistance allocated during ongoing armed conflicts increases military fatalities but decreases civilian fatalities. Using geographically coded data on all sub-Saharan African countries in conflict between 1989 and 2008, within a matching frontier design and supplemented by instrumental variable analysis, we find strong substantive and statistical support for our expectations about military conflict intensity though less support for the expectations about civilian fatalities. The paper provides novel insights about the effects of concentrated aid on military versus civilian conflict intensity, characterizes the effects at a sub-national level, and expands the spatial-temporal period of the analysis. We also probe the plausibility of the causal mechanism using interview evidence drawn from ex-commanders of the Lord’s Resistance Army and generals of the Ugandan People’s Defence Forces in northern Uganda. The paper offers both academic and policy insights, including that foreign aid allocated during ongoing wars may be more problematic than it is helpful.
+
 
 - title: "A Field Experiment Using Social Media Ads to Encourage COVID-19 Vaccination"
   coauthors: "with Jiseon Chang, Roman Hlatky, Huimin Li, and Daniel L. Nielson"
@@ -33,13 +23,7 @@ be more problematic than it is helpful.
   link_label: "PDF"
   link: "/assets/pdf/pnasnexus.pdf"
 
-#Abstract: Behavioral nudges in Facebook ads reached nearly 15 million people across six diverse countries and, consequently, many thousands took
-the step of navigating to governments’ vaccine signup sites. However, none of the treatment ads caused significantly more vaccine signup
-intent than placebo uniformly across all countries. Critically, reporting the descriptive norm that 87% of people worldwide had either been
-vaccinated or planned vaccination—social proof—did not meaningfully increase vaccine signup intent in any country and significantly
-backfired in Taiwan. This result contradicts prominent prior findings. A charge to “protect lives in your family” significantly outperformed placebo in Taiwan and Turkey but saw null effects elsewhere. A message noting that vaccination significantly reduces hospitalization risk decreased signup intent in Brazil and had no significant effects in any other country. Such heterogeneity was the hallmark of the study; some messages saw significant treatment effects in some countries but failed in others. No nudge outperformed
-the placebo in Russia, a location of high vaccine skepticism. In all, widely touted behavioral nudges often failed to promote vaccine
-signup intent and appear to be moderated by cultural context.
+#Abstract: Behavioral nudges in Facebook ads reached nearly 15 million people across six diverse countries and, consequently, many thousands took the step of navigating to governments’ vaccine signup sites. However, none of the treatment ads caused significantly more vaccine signup intent than placebo uniformly across all countries. Critically, reporting the descriptive norm that 87% of people worldwide had either been vaccinated or planned vaccination—social proof—did not meaningfully increase vaccine signup intent in any country and significantly backfired in Taiwan. This result contradicts prominent prior findings. A charge to “protect lives in your family” significantly outperformed placebo in Taiwan and Turkey but saw null effects elsewhere. A message noting that vaccination significantly reduces hospitalization risk decreased signup intent in Brazil and had no significant effects in any other country. Such heterogeneity was the hallmark of the study; some messages saw significant treatment effects in some countries but failed in others. No nudge outperformed the placebo in Russia, a location of high vaccine skepticism. In all, widely touted behavioral nudges often failed to promote vaccine signup intent and appear to be moderated by cultural context.
 
 - title: "Fleeing (in)voluntarily: How Projected Patriotism Affects Attitudes Towards Conflict Migrants"
   type: "working-paper"
@@ -98,8 +82,7 @@ signup intent and appear to be moderated by cultural context.
   link_label: "Pre-Analysis Plan"
   link: "/assets/pdf/PAP_Ukraine.pdf"
   
-#Abstract: Abstract
-Russia’s incursion into the Donbas in 2014 and its subsequent meddling in the 2016 U.S. election prompted an avalanche of writing on Russian influence and information operations abroad, and now, following Russia’s invasion of Ukraine in 2022, the topic has never been more salient. But we have little empirical knowledge of how Russia’s supposed influence affects meaningful behavioral outcomes. To address this gap, we execute an online field experiment in Serbia, Turkey, India, Estonia, and Kazakhstan. In all five countries, pro-Russian perspectives play a documented and influential role in shaping public opinion, or there are strong historical, cultural, and strategic reasons for (some) citizens to adopt pro-Russian attitudes. Using A/B testing on Facebook’s ad platform, we solicit donations to an NGO supporting Ukrainian refugees while randomly assigning the accompanying imagery and messaging, and we use click rates on the donation link as our main outcome variable. In doing so, we test two main interventions – appeals to shared suffering, and primes emphasizing strategic links to Russia. And we use a meaningful behavioral outcome to deliver contemporaneous insight into how existing linguistic, cultural, economic, and strategic ties interact with historical perceptions of suffering.
+#Abstract: #Russia’s incursion into the Donbas in 2014 and its subsequent meddling in the 2016 U.S. election prompted an avalanche of writing on Russian influence and information operations abroad, and now, following Russia’s invasion of Ukraine in 2022, the topic has never been more salient. But we have little empirical knowledge of how Russia’s supposed influence affects meaningful behavioral outcomes. To address this gap, we execute an online field experiment in Serbia, Turkey, India, Estonia, and Kazakhstan. In all five countries, pro-Russian perspectives play a documented and influential role in shaping public opinion, or there are strong historical, cultural, and strategic reasons for (some) citizens to adopt pro-Russian attitudes. Using A/B testing on Facebook’s ad platform, we solicit donations to an NGO supporting Ukrainian refugees while randomly assigning the accompanying imagery and messaging, and we use click rates on the donation link as our main outcome variable. In doing so, we test two main interventions – appeals to shared suffering, and primes emphasizing strategic links to Russia. And we use a meaningful behavioral outcome to deliver contemporaneous insight into how existing linguistic, cultural, economic, and strategic ties interact with historical perceptions of suffering.
 
 - title: "Language and Voting Behavior among Asian Americans: The Case of the 2024 US Presidential Elections"
   coauthors: "with Amy Liu, Jangai Jap, Keith Chew and others"
