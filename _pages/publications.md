@@ -7,7 +7,6 @@ nav: true
 nav_order: 2
 ---
 
-
 ## Publications
 {% assign pubs = site.data.publications | where: "type", "publication" %}
 {% for pub in pubs %}
@@ -41,4 +40,14 @@ nav_order: 2
   {% if wp.abstract or wp.link %}
   <div style="margin-top: 0.25em; margin-bottom: 1em;">
     {% if wp.abstract %}
-    <details style="display: inline-blo
+    <details style="display: inline-block; margin-right: 1em;">
+      <summary style="cursor: pointer;">Abstract</summary>
+      <p style="margin: 0.5em 0 0 0;">{{ wp.abstract }}</p>
+    </details>
+    {% endif %}
+    {% if wp.link %}
+    <a href="{{ wp.link }}">{{ wp.link_label | default: "Draft" }}</a>
+    {% endif %}
+  </div>
+  {% endif %}
+{% endfor %}
