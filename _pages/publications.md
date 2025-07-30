@@ -7,23 +7,28 @@ nav: true
 nav_order: 2
 ---
 
-
 ## Publications
 {% assign pubs = site.data.publications | where: "type", "publication" %}
 {% for pub in pubs %}
 - **{{ pub.title }}**{% assign coauthors_clean = pub.coauthors | to_s | strip %}
   {% if coauthors_clean != "" %} (with {{ coauthors_clean }}){% endif %}, _{{ pub.venue }}_ ({{ pub.year }})
 
-  {% if pub.abstract %}
-  <details style="display:inline-block; margin-right: 10px;">
-    <summary style="display:inline; cursor:pointer; font-size: 0.9em;">Abstract</summary>
-    <p style="margin: 0.5em 0 0 1.2em; max-width: 800px;">{{ pub.abstract }}</p>
-  </details>
-  {% endif %}
+  <br>
 
-  {% if pub.link %}
-  [{{ pub.link_label | default: "PDF" }}]({{ pub.link }})
-  {% endif %}
+  <span>
+    {% if pub.abstract %}
+    <details style="display: inline;">
+      <summary style="display: inline; cursor: pointer;">Abstract</summary>
+      <p style="margin-top: 0.5em;">{{ pub.abstract }}</p>
+    </details>
+    {% endif %}
+
+    {% if pub.link %}
+    <a href="{{ pub.link }}" style="margin-left: 1em;">
+      {{ pub.link_label | default: "PDF" }}
+    </a>
+    {% endif %}
+  </span>
 
   <br><br>
 {% endfor %}
@@ -37,16 +42,22 @@ nav_order: 2
   {% if coauthors_clean != "" %} (with {{ coauthors_clean }}){% endif %}
   {% if wp.year %} ({{ wp.year }}){% endif %}
 
-  {% if wp.abstract %}
-  <details style="display:inline-block; margin-right: 10px;">
-    <summary style="display:inline; cursor:pointer; font-size: 0.9em;">Abstract</summary>
-    <p style="margin: 0.5em 0 0 1.2em; max-width: 800px;">{{ wp.abstract }}</p>
-  </details>
-  {% endif %}
+  <br>
 
-  {% if wp.link %}
-  [{{ wp.link_label | default: "Draft" }}]({{ wp.link }})
-  {% endif %}
+  <span>
+    {% if wp.abstract %}
+    <details style="display: inline;">
+      <summary style="display: inline; cursor: pointer;">Abstract</summary>
+      <p style="margin-top: 0.5em;">{{ wp.abstract }}</p>
+    </details>
+    {% endif %}
+
+    {% if wp.link %}
+    <a href="{{ wp.link }}" style="margin-left: 1em;">
+      {{ wp.link_label | default: "Draft" }}
+    </a>
+    {% endif %}
+  </span>
 
   <br><br>
 {% endfor %}
