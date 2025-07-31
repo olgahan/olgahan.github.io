@@ -14,15 +14,19 @@ nav_order: 2
   {% if coauthors_clean != "" %} ({{ coauthors_clean }}){% endif %}, _{{ pub.venue }}_ ({{ pub.year }})
 
   {% if pub.abstract or pub.link %}
-  <div style="display: flex; gap: 1em; flex-wrap: wrap; align-items: flex-start; margin: 0.25em 0 1em 0;">
+  <div style="display: flex; gap: 1em; flex-wrap: wrap; align-items: flex-start; margin: 0.25em 0 1.5em 0;">
     {% if pub.abstract %}
-    <details>
-      <summary style="cursor: pointer;">Abstract</summary>
-      <div style="margin-top: 0.5em; max-width: 60ch;">{{ pub.abstract | markdownify }}</div>
-    </details>
+    <div>
+      <details>
+        <summary style="cursor: pointer;">Abstract</summary>
+        <div style="margin-top: 0.5em; max-width: 60ch;">
+          {{ pub.abstract | markdownify }}
+        </div>
+      </details>
+    </div>
     {% endif %}
     {% if pub.link %}
-    <div style="margin-top: 0.5em;">
+    <div style="margin-top: 0.3em;">
       <a href="{{ pub.link }}">{{ pub.link_label | default: "PDF" }}</a>
     </div>
     {% endif %}
@@ -40,15 +44,19 @@ nav_order: 2
   {% if wp.year %} ({{ wp.year }}){% endif %}
 
   {% if wp.abstract or wp.link %}
-  <div style="display: flex; gap: 1em; flex-wrap: wrap; align-items: flex-start; margin: 0.25em 0 1em 0;">
+  <div style="display: flex; gap: 1em; flex-wrap: wrap; align-items: flex-start; margin: 0.25em 0 1.5em 0;">
     {% if wp.abstract %}
-    <details>
-      <summary style="cursor: pointer;">Abstract</summary>
-      <div style="margin-top: 0.5em; max-width: 60ch;">{{ wp.abstract | markdownify }}</div>
-    </details>
+    <div>
+      <details>
+        <summary style="cursor: pointer;">Abstract</summary>
+        <div style="margin-top: 0.5em; max-width: 60ch;">
+          {{ wp.abstract | markdownify }}
+        </div>
+      </details>
+    </div>
     {% endif %}
     {% if wp.link %}
-    <div style="margin-top: 0.5em;">
+    <div style="margin-top: 0.3em;">
       <a href="{{ wp.link }}">{{ wp.link_label | default: "Draft" }}</a>
     </div>
     {% endif %}
