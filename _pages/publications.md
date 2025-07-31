@@ -14,17 +14,16 @@ nav_order: 2
   {% if coauthors_clean != "" %} (with {{ coauthors_clean }}){% endif %}, _{{ pub.venue }}_ ({{ pub.year }})
 
   {% if pub.abstract or pub.link %}
-  <div style="margin-top: 0.25em; margin-bottom: 1em;">
-    {% if pub.abstract %}
-    <details style="display: inline-block; margin-right: 1em;">
-      <summary style="cursor: pointer;">Abstract</summary>
-      <p style="margin: 0.5em 0 0 0;">{{ pub.abstract }}</p>
-    </details>
-    {% endif %}
-    {% if pub.link %}
-    <a href="{{ pub.link }}">{{ pub.link_label | default: "PDF" }}</a>
-    {% endif %}
-  </div>
+  &nbsp;&nbsp;
+  {% if pub.abstract %}
+  <details style="display: inline;">
+    <summary style="display: inline; cursor: pointer;">Abstract</summary>
+    <span style="display: none;">{{ pub.abstract }}</span>
+  </details>
+  {% endif %}
+  {% if pub.link %}
+  &nbsp;<a href="{{ pub.link }}">{{ pub.link_label | default: "PDF" }}</a>
+  {% endif %}
   {% endif %}
 {% endfor %}
 
@@ -38,16 +37,15 @@ nav_order: 2
   {% if wp.year %} ({{ wp.year }}){% endif %}
 
   {% if wp.abstract or wp.link %}
-  <div style="margin-top: 0.25em; margin-bottom: 1em;">
-    {% if wp.abstract %}
-    <details style="display: inline-block; margin-right: 1em;">
-      <summary style="cursor: pointer;">Abstract</summary>
-      <p style="margin: 0.5em 0 0 0;">{{ wp.abstract }}</p>
-    </details>
-    {% endif %}
-    {% if wp.link %}
-    <a href="{{ wp.link }}">{{ wp.link_label | default: "Draft" }}</a>
-    {% endif %}
-  </div>
+  &nbsp;&nbsp;
+  {% if wp.abstract %}
+  <details style="display: inline;">
+    <summary style="display: inline; cursor: pointer;">Abstract</summary>
+    <span style="display: none;">{{ wp.abstract }}</span>
+  </details>
+  {% endif %}
+  {% if wp.link %}
+  &nbsp;<a href="{{ wp.link }}">{{ wp.link_label | default: "Draft" }}</a>
+  {% endif %}
   {% endif %}
 {% endfor %}
