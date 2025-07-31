@@ -8,7 +8,7 @@
   type: "publication"
   link_label: "PDF"
   link: "/assets/pdf/isq.pdf"
-  abstract: | 
+  abstract: >
     Does foreign aid reduce violence during ongoing wars? In the policy community, 
     there has been growing optimism about the prospect for aid to improve conflict-affected and fragile areas.
     We investigate whether foreign aid decreases, or even increases, violence during ongoing armed conflict. 
@@ -33,7 +33,7 @@
   type: "publication"
   link_label: "PDF"
   link: "/assets/pdf/pnasnexus.pdf"
-  abstract: |
+  abstract: >
     Behavioral nudges in Facebook ads reached nearly 15 million people across six diverse countries and, consequently, 
     many thousands took the step of navigating to governments’ vaccine signup sites. However, none of the treatment ads caused 
     significantly more vaccine signup intent than placebo uniformly across all countries. Critically, reporting the descriptive 
@@ -53,7 +53,7 @@
   note: "Available upon request"
   link_label: "Draft"
   link: "/assets/pdf/Olgahan_JMP.pdf"
-  abstract: |
+  abstract: >
     What shapes attitudes towards conflict migrants? A growing literature points out the events that cause displacement, 
     which can be grouped as voluntary (economic migrants) and involuntary (refugees), and the latter has been shown to elicit
     more positive attitudes than the former. The effect of common conflict types such as civil war, invasion, or gang violence,
@@ -110,7 +110,7 @@
   note: "Available upon request"
   link_label: "Pre-Analysis Plan"
   link: "/assets/pdf/.pdf"
-  abstract: |
+  abstract: >
     Why do some citizens support wartime emigration while others oppose it? Wartime emigration activates moral heuristics 
     grounded in perceived vulnerability, civic duty, and merit. These heuristics shape judgments of departure legitimacy, 
     depending on who leaves, why, and under what conditions. Prior research largely focuses on how host-country publics 
@@ -138,7 +138,7 @@
   note: "Available upon request"
   link_label: "Pre-Analysis Plan"
   link: "/assets/pdf/PAP_Ukraine.pdf"
-  abstract: |
+  abstract: >
     Russia’s incursion into the Donbas in 2014 and its subsequent meddling in the 2016 U.S. election prompted 
     an avalanche of writing on Russian influence and information operations abroad, and now, following Russia’s invasion 
     of Ukraine in 2022, the topic has never been more salient. But we have little empirical knowledge of how Russia’s 
@@ -160,7 +160,7 @@
   note: "Available upon request"
   link_label: "Draft"
   link: "/assets/pdf/AAPI.pdf"
-  abstract: |
+  abstract: >
     Survey data from before the 2024 election about Asian American voting behavior did not match exit poll numbers. 
     What explains this discrepancy? In this note we argue there are methodological limitations – specifically with 
     the data collection process. Existing surveys systematically under-sample English-limited Asian Americans – 
