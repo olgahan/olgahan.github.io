@@ -7,6 +7,15 @@ nav: true
 nav_order: 2
 ---
 
+---
+layout: page
+permalink: /publications/
+title: research
+description: 
+nav: true
+nav_order: 2
+---
+
 ## Publications
 
 <ul>
@@ -36,6 +45,7 @@ nav_order: 2
 
 ---
 
+
 ## Working Papers
 
 <ul>
@@ -51,7 +61,7 @@ nav_order: 2
       {% if wp.abstract %}
       <details style="display: inline-block;">
         <summary style="cursor: pointer;">Abstract</summary>
-        <p style="margin: 0.5em 0 0 0;">{{ wp.abstract | markdownify }}</p>
+        <p style="margin: 0.5em 0 0 0;">{{ wp.abstract }}</p>
       </details>
       {% endif %}
       {% if wp.link %}
@@ -62,3 +72,4 @@ nav_order: 2
   </li>
 {% endfor %}
 </ul>
+
