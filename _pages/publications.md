@@ -14,19 +14,17 @@ nav_order: 2
   {% if coauthors_clean != "" %} ({{ coauthors_clean }}){% endif %}, _{{ pub.venue }}_ ({{ pub.year }})
 
   {% if pub.abstract or pub.link %}
-  <div style="display: flex; gap: 1em; flex-wrap: wrap; align-items: flex-start; margin: 0.25em 0 1.5em 0;">
+  <div style="display: flex; align-items: center; gap: 1em; flex-wrap: wrap; margin: 0.2em 0 0.5em 0;">
     {% if pub.abstract %}
-    <div>
-      <details>
-        <summary style="cursor: pointer;">Abstract</summary>
-        <div style="margin-top: 0.5em; max-width: 60ch;">
-          {{ pub.abstract | markdownify }}
-        </div>
-      </details>
-    </div>
+    <details style="display: inline-block;">
+      <summary style="cursor: pointer; margin: 0;">Abstract</summary>
+      <div style="margin-top: 0.5em; max-width: 800px;">
+        <p style="margin: 0;">{{ pub.abstract }}</p>
+      </div>
+    </details>
     {% endif %}
     {% if pub.link %}
-    <div style="margin-top: 0.3em;">
+    <div style="display: inline-block;">
       <a href="{{ pub.link }}">{{ pub.link_label | default: "PDF" }}</a>
     </div>
     {% endif %}
@@ -44,19 +42,17 @@ nav_order: 2
   {% if wp.year %} ({{ wp.year }}){% endif %}
 
   {% if wp.abstract or wp.link %}
-  <div style="display: flex; gap: 1em; flex-wrap: wrap; align-items: flex-start; margin: 0.25em 0 1.5em 0;">
+  <div style="display: flex; align-items: center; gap: 1em; flex-wrap: wrap; margin: 0.2em 0 0.5em 0;">
     {% if wp.abstract %}
-    <div>
-      <details>
-        <summary style="cursor: pointer;">Abstract</summary>
-        <div style="margin-top: 0.5em; max-width: 60ch;">
-          {{ wp.abstract | markdownify }}
-        </div>
-      </details>
-    </div>
+    <details style="display: inline-block;">
+      <summary style="cursor: pointer; margin: 0;">Abstract</summary>
+      <div style="margin-top: 0.5em; max-width: 800px;">
+        <p style="margin: 0;">{{ wp.abstract }}</p>
+      </div>
+    </details>
     {% endif %}
     {% if wp.link %}
-    <div style="margin-top: 0.3em;">
+    <div style="display: inline-block;">
       <a href="{{ wp.link }}">{{ wp.link_label | default: "Draft" }}</a>
     </div>
     {% endif %}
