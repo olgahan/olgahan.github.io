@@ -16,8 +16,8 @@ Here’s a list of my teaching experience and materials.
 - **Causal Inference (PhD)**  
   Brown University, Fall 2025
 
-- **Statistics II**  
+- **Statistics II (PhD)**  
   Brown University, Spring 2026
 
-  - **Experimental Methods**  
+- **Experimental Methods (PhD)**  
   Brown University, Spring 2026
