@@ -9,7 +9,7 @@ profile:
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p> olgahan@utexas.edu </p>
+    <p> olgahan@brown.edu </p>
     
 
 news: false # includes a list of news items
