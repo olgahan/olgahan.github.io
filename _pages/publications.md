@@ -20,7 +20,7 @@ nav_order: 2
     <details style="display: inline-block;">
       <summary style="cursor: pointer;">Abstract</summary>
       <div style="margin-top: 0.5em;">
-        {{ pub.abstract | newline_to_br }}
+        {{ pub.abstract | markdownify }}
       </div>
     </details>
     {% endif %}
@@ -50,7 +50,7 @@ nav_order: 2
     <details style="display: inline-block;">
       <summary style="cursor: pointer;">Abstract</summary>
       <div style="margin-top: 0.5em;">
-        {{ wp.abstract | newline_to_br }}
+        {{ wp.abstract | markdownify }}
       </div>
     </details>
     {% endif %}
