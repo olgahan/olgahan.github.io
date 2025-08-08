@@ -9,8 +9,6 @@
   link_label: "PDF"
   link: "/assets/pdf/isq.pdf"
   abstract: >
-    <br><br>
-    <img src="/assets/img/aid_image.png" alt="" style="max-width:100%; margin-top:1em;">
     Does foreign aid reduce violence during ongoing wars? In the policy community, 
     there has been growing optimism about the prospect for aid to improve conflict-affected and fragile areas.
     We investigate whether foreign aid decreases, or even increases, violence during ongoing armed conflict. 
@@ -23,7 +21,8 @@
     the spatial-temporal period of the analysis. We also probe the plausibility of the causal mechanism using interview evidence drawn 
     from ex-commanders of the Lord’s Resistance Army and generals of the Ugandan People’s Defence Forces in northern Uganda. The paper
     offers both academic and policy insights, including that foreign aid allocated during ongoing wars may be more problematic than it is helpful.
-    
+    <br><br>
+    <img src="/assets/img/aid_image.png" alt="" style="max-width:50%; margin-top:1em;">
 
 - title: "A Field Experiment Using Social Media Ads to Encourage COVID-19 Vaccination"
   coauthors: "with Jiseon Chang, Roman Hlatky, Huimin Li, and Daniel L. Nielson"
@@ -48,7 +47,7 @@
     vaccine skepticism. In all, widely touted behavioral nudges often failed to promote vaccine signup intent and appear to be 
     moderated by cultural context.
     <br><br>
-    <img src="/assets/img/pnas_image.png" alt="" style="max-width:100%; margin-top:1em;">
+    <img src="/assets/img/pnas_image.png" alt="" style="max-width:50%; margin-top:1em;">
 
 
 
@@ -66,14 +65,14 @@
     While involuntary migration is argued to attract more sympathy than voluntary migration, I argue that fleeing conflict 
     events such as, civil war, invasion or gang violence, which constitute the main driver for the majority of forced displacements
     is not necessarily perceived as an involuntary act. To explain when and how people perceive it as a voluntary act, 
-    I introduce the concept of patriotism called \textit{Projected Patriotism}. People who embrace this notion expect citizens 
+    I introduce the concept of patriotism called Projected Patriotism. People who embrace this notion expect citizens 
     of other countries to act in patriotic ways and judge them accordingly, shaping their attitudes toward refugees. 
     Employing conjoint survey experiments in the United States and Turkey, I test these hypotheses. While conflict refugees 
     are preferred more than economic migrants, the evidence suggests that this preference disappears with individuals with 
     high Projected Patriotism in Turkey. The findings challenge the existing understanding about what constitutes voluntariness 
     of migration and its effects on attitudes. 
     <br><br>
-    <img src="/assets/img/jmp_amce.png" alt="" style="max-width:100%; margin-top:1em;">
+    <img src="/assets/img/jmp_amce.png" alt="" style="max-width:50%; margin-top:1em;">
 
 
 
