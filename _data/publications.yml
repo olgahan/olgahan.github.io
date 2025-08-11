@@ -133,13 +133,12 @@
     measuring landlords’ behavioral responses to rental inquiries. In partnership with Casa Marianella, 
     an NGO serving refugees in Austin, Texas, we collaborate with refugee residents to send realistic, varied messages on behalf of them
     to landlords advertising properties on major online platforms. We experimentally manipulate three applicant attributes: 
-    perceived racial/ethnic identity,
-    gender, and whether the inquiry includes an NGO endorsement - an innovative treatment that signals organizational support and 
-    credibility. Messages are crafted to be comparable across conditions while avoiding detection through excessive similarity. 
-    Our outcomes capture multiple dimensions of access: whether a reply is received, the length of the response, and the 
-    helpfulness of the information provided. This design moves beyond stated attitudes to observe actual landlord behavior, 
-    generating causal evidence on how race, gender, and institutional endorsement influence refugees’ access to rental housing 
-    in a competitive urban market.
+    perceived racial/ethnic identity, gender, and whether the inquiry includes an NGO endorsement - an innovative treatment 
+    that signals organizational support and credibility. Messages are crafted to be comparable across conditions while avoiding 
+    detection through excessive similarity. Our outcomes capture multiple dimensions of access: whether a reply is received, 
+    the length of the response, and the helpfulness of the information provided. This design moves beyond stated attitudes 
+    to observe actual landlord behavior, generating causal evidence on how race, gender, and institutional endorsement 
+    influence refugees’ access to rental housing in a competitive urban market.
 
 
 - title: "The Legitimacy of Wartime Emigration: Evidence from a Conjoint Experiment in Ukraine"
