@@ -63,7 +63,7 @@
     which does not immediately signal deliberate targeting as in the case of ethnic or religious persecution, is yet to be tested. 
     Further, the distinction between voluntary and involuntary migration is based on assumptions that need to be addressed. 
     While involuntary migration is argued to attract more sympathy than voluntary migration, I argue that fleeing conflict 
-    events such as, civil war, invasion or gang violence, which constitute the main driver for the majority of forced displacements
+    events such as civil war, invasion or gang violence, which constitute the main driver for the majority of forced displacements
     is not necessarily perceived as an involuntary act. To explain when and how people perceive it as a voluntary act, 
     I introduce the concept of patriotism called Projected Patriotism. People who embrace this notion expect citizens 
     of other countries to act in patriotic ways and judge them accordingly, shaping their attitudes toward refugees. 
@@ -103,44 +103,6 @@
     <br><br>
     <img src="/assets/img/pp1corr.png" alt="" style="max-width:70%; margin-top:1em;">
 
-- title: "Public Attitudes Toward AI Use in Asylum Decisions"
-  type: "working-paper"
-  note: "Available upon request"
-  link_label: "Pre-Analysis Plan"
-  link: "/assets/pdf/PAP_AI.pdf"
-
-- title: "Public Preferences Over U.S. Foreign Aid and Border Enforcement"
-  type: "working-paper"
-  note: "Available upon request"
-  link_label: "Pre-Analysis Plan"
-  link: "/assets/pdf/PAP_AID.pdf"
-
-- title: "Migration Experience and Attitudes toward Immigration"
-  type: "working-paper"
-  note: "Available upon request"
-  link_label: "Pre-Analysis Plan"
-  link: "/assets/pdf/PAP_GC.pdf"
-
-
-- title: "Home is Where the Bias is: A Field Experiment on Bias in Refugee Housing Search"
-  coauthors: "with Danny Cowser"
-  type: "working-paper"
-  note: "Available upon request"
-  link_label: "Pre-Analysis Plan"
-  link: "/assets/pdf/PAP_Casa.pdf"
-  abstract: >
-    What drives discrimination against refugees in the housing market? We address this question with a field experiment in
-    measuring landlords’ behavioral responses to rental inquiries. In partnership with Casa Marianella, 
-    an NGO serving refugees in Austin, Texas, we collaborate with refugee residents to send realistic, varied messages on behalf of them
-    to landlords advertising properties on major online platforms. We experimentally manipulate three applicant attributes: 
-    perceived racial/ethnic identity, gender, and whether the inquiry includes an NGO endorsement - an innovative treatment 
-    that signals organizational support and credibility. Messages are crafted to be comparable across conditions while avoiding 
-    detection through excessive similarity. Our outcomes capture multiple dimensions of access: whether a reply is received, 
-    the length of the response, and the helpfulness of the information provided. This design moves beyond stated attitudes 
-    to observe actual landlord behavior, generating causal evidence on how race, gender, and institutional endorsement 
-    influence refugees’ access to rental housing in a competitive urban market.
-
-
 - title: "The Legitimacy of Wartime Emigration: Evidence from a Conjoint Experiment in Ukraine"
   coauthors: "with Betty Compton, Roman Hlatky, Holly Jansen, Amy Liu, and Eoin Power"
   type: "working-paper"
@@ -169,7 +131,46 @@
     <br><br>
     <img src="/assets/img/amce_emig_binary.png" alt="" style="max-width:70%; margin-top:1em;">
 
+- title: "Language and Voting Behavior among Asian Americans: The Case of the 2024 US Presidential Elections"
+  coauthors: "with Amy Liu, Jangai Jap, Keith Chew and others"
+  type: "working-paper"
+  note: "Available upon request"
+  link_label: "Draft"
+  link: "/assets/pdf/AAPI.pdf"
+  abstract: >
+    Survey data from before the 2024 election about Asian American voting behavior did not match exit poll numbers. 
+    What explains this discrepancy? In this note we argue there are methodological limitations – specifically with 
+    the data collection process. Existing surveys systematically under-sample English-limited Asian Americans – 
+    a population that is almost 44% of the community. Consider how less than 2% of the Asian respondents in the CMPS 
+    took the survey in an Asian language. Since linguistic proficiency is not randomly distributed, what this means 
+    is that research on Asian Americans is largely biased towards liberals and Democrats. We fielded an original survey
+    that draws on extensive, targeted recruiting of the Asian American community (N=4956) – of which 28% of the respondents
+    took the survey in a non-English language. Our results not only match exit polls but also highlight – on average – a 14% gap 
+    in Democrat support between English and non-English language speakers in the Asian American community. This note 
+    offers a workflow for future researchers to think about how to sample non-English speaking communities in the US 
+    with minimal financial barriers.
+    <br><br>
+    <img src="/assets/img/aapi.png" alt="" style="max-width:70%; margin-top:1em;">
 
+
+
+- title: "Public Attitudes Toward AI Use in Asylum Decisions"
+  type: "working-paper"
+  note: "Available upon request"
+  link_label: "Pre-Analysis Plan"
+  link: "/assets/pdf/PAP_AI.pdf"
+
+- title: "Public Preferences Over U.S. Foreign Aid and Border Enforcement"
+  type: "working-paper"
+  note: "Available upon request"
+  link_label: "Pre-Analysis Plan"
+  link: "/assets/pdf/PAP_AID.pdf"
+
+- title: "Migration Experience and Attitudes toward Immigration"
+  type: "working-paper"
+  note: "Available upon request"
+  link_label: "Pre-Analysis Plan"
+  link: "/assets/pdf/PAP_GC.pdf"
 
 - title: "Sound And Fury, Signifying Nothing? An Empirical Test Of Russian Influence In Asia And Eastern Europe"
   coauthors: "with Jiseon Chang, Danny Cowser, Nivedita Jhunjhunwala, Daniel L. Nielson, and Eoin Power"
@@ -195,26 +196,28 @@
 
   
 
-- title: "Language and Voting Behavior among Asian Americans: The Case of the 2024 US Presidential Elections"
-  coauthors: "with Amy Liu, Jangai Jap, Keith Chew and others"
+- title: "Home is Where the Bias is: A Field Experiment on Bias in Refugee Housing Search"
+  coauthors: "with Danny Cowser"
   type: "working-paper"
   note: "Available upon request"
-  link_label: "Draft"
-  link: "/assets/pdf/AAPI.pdf"
+  link_label: "Pre-Analysis Plan"
+  link: "/assets/pdf/PAP_Casa.pdf"
   abstract: >
-    Survey data from before the 2024 election about Asian American voting behavior did not match exit poll numbers. 
-    What explains this discrepancy? In this note we argue there are methodological limitations – specifically with 
-    the data collection process. Existing surveys systematically under-sample English-limited Asian Americans – 
-    a population that is almost 44% of the community. Consider how less than 2% of the Asian respondents in the CMPS 
-    took the survey in an Asian language. Since linguistic proficiency is not randomly distributed, what this means 
-    is that research on Asian Americans is largely biased towards liberals and Democrats. We fielded an original survey
-    that draws on extensive, targeted recruiting of the Asian American community (N=4956) – of which 28% of the respondents
-    took the survey in a non-English language. Our results not only match exit polls but also highlight – on average – a 14% gap 
-    in Democrat support between English and non-English language speakers in the Asian American community. This note 
-    offers a workflow for future researchers to think about how to sample non-English speaking communities in the US 
-    with minimal financial barriers.
-    <br><br>
-    <img src="/assets/img/aapi.png" alt="" style="max-width:70%; margin-top:1em;">
+    What drives discrimination against refugees in the housing market? We address this question with a field experiment in
+    measuring landlords’ behavioral responses to rental inquiries. In partnership with Casa Marianella, 
+    an NGO serving refugees in Austin, Texas, we collaborate with refugee residents to send realistic, varied messages on behalf of them
+    to landlords advertising properties on major online platforms. We experimentally manipulate three applicant attributes: 
+    perceived racial/ethnic identity, gender, and whether the inquiry includes an NGO endorsement - an innovative treatment 
+    that signals organizational support and credibility. Messages are crafted to be comparable across conditions while avoiding 
+    detection through excessive similarity. Our outcomes capture multiple dimensions of access: whether a reply is received, 
+    the length of the response, and the helpfulness of the information provided. This design moves beyond stated attitudes 
+    to observe actual landlord behavior, generating causal evidence on how race, gender, and institutional endorsement 
+    influence refugees’ access to rental housing in a competitive urban market.
+
+
+
+
+
 
 
   
