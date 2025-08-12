@@ -6,7 +6,7 @@
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to Olgahan Cat, the best place for all things Olgahan and Olgahan Cat.{% endif %}">
 
 <!-- Canonical URL -->
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url | replace:'/','' | prepend:'https://olgahan.com' }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url | prepend: site.url }}">
 
 <!-- Open Graph -->
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Olgahan Cat{% endif %}">
@@ -109,7 +109,6 @@
     crossorigin="anonymous"
   >
 {% endif %}
-
 
 {% if page.code_diff %}
   <link
