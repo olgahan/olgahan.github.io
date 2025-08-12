@@ -108,7 +108,7 @@
   type: "working-paper"
   note: "Available upon request"
   link_label: "Pre-Analysis Plan"
-  link: "/assets/pdf/.pdf"
+  #link: "/assets/pdf/Emig_draft.pdf"
   abstract: >
     Why do some citizens support wartime emigration while others oppose it? Wartime emigration activates moral heuristics 
     grounded in perceived vulnerability, civic duty, and merit. These heuristics shape judgments of departure legitimacy, 
@@ -136,7 +136,7 @@
   type: "working-paper"
   note: "Available upon request"
   link_label: "Draft"
-  link: "/assets/pdf/AAPI.pdf"
+  #link: "/assets/pdf/AAPI.pdf"
   abstract: >
     Survey data from before the 2024 election about Asian American voting behavior did not match exit poll numbers. 
     What explains this discrepancy? In this note we argue there are methodological limitations – specifically with 
