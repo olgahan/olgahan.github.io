@@ -6,7 +6,7 @@
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to Olgahan Cat, the best place for all things Olgahan and Olgahan Cat.{% endif %}">
 
 <!-- Canonical URL -->
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url | prepend: site.url }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
 
 <!-- Open Graph -->
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Olgahan Cat{% endif %}">
