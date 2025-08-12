@@ -154,23 +154,55 @@
 
 
 
-- title: "Public Attitudes Toward AI Use in Asylum Decisions"
+- title: "AI at the Gates: Public Support for Technology-Driven Migration Governance"
   type: "working-paper"
   note: "Available upon request"
   link_label: "Pre-Analysis Plan"
   link: "/assets/pdf/PAP_AI.pdf"
+  abstract: >
+    Governments are increasingly adopting artificial intelligence (AI) to process asylum applications, raising concerns about 
+    transparency, fairness, and the legitimacy of decisions affecting vulnerable populations. This study examines how AI use in 
+    asylum adjudication shapes public perceptions of procedural fairness and asylum seekers’ deservingness. Using a preregistered 
+    survey experiment with a nationally representative sample of U.S. adults, we manipulate three factors: whether the decision is 
+    made by a human adjudicator or an AI system, whether the AI system is transparent or opaque, and whether the applicant uses legal 
+    aid or an AI-based application tool. We hypothesize that opaque AI decision-making will reduce perceived fairness, that applicants 
+    relying on AI tools will be judged as less deserving, and that transparency will attenuate negative perceptions of AI use. Outcomes 
+    include fairness assessments, perceived deservingness, support for granting asylum, and trust in the asylum system. This project
+    advances research on forced migration, bureaucratic legitimacy, and the ethics of automated governance, highlighting how 
+    technological mediation can alter public support for both institutions and the individuals they serve.
 
-- title: "Public Preferences Over U.S. Foreign Aid and Border Enforcement"
+- title: "Foreign Aid, Border Enforcement, and Public Opinion on U.S. Migration Policy"
   type: "working-paper"
   note: "Available upon request"
   link_label: "Pre-Analysis Plan"
   link: "/assets/pdf/PAP_AID.pdf"
+  abstract: >
+    Debates over U.S. migration policy often frame foreign aid to refugee-hosting countries and domestic border enforcement as 
+    competing strategies to address forced displacement. This study examines how Americans evaluate trade-offs between these approaches
+    when they are presented as alternative budget priorities. Using a preregistered conjoint experiment with a nationally representative
+    sample of U.S. adults, respondents will evaluate spending packages that vary in foreign aid recipient characteristics, 
+    refugee-hosting burdens, aid purpose, and border enforcement type, cost, and framing. We hypothesize that support for foreign 
+    aid will increase when recipients host large refugee populations and when aid is framed as preventing onward migration to the
+    United States, but that border enforcement will remain the baseline preference—except when aid is both burden-sharing and 
+    migration-preventive. We further expect preferences to vary by political ideology, immigration threat perceptions, and national 
+    identity. This project contributes to research on foreign aid, migration politics, and public opinion by testing how strategic 
+    framing and policy trade-offs shape citizens’ willingness to support international versus domestic responses to displacement.
 
-- title: "Migration Experience and Attitudes toward Immigration"
+- title: "How Does Migration Shape Views on Immigration? A Quasi-Natural Experiment"
   type: "working-paper"
   note: "Available upon request"
   link_label: "Pre-Analysis Plan"
   link: "/assets/pdf/PAP_GC.pdf"
+  abstract: >
+    This paper examines how international migration shapes attitudes toward immigration by leveraging a quasi-natural 
+    experiment based on the U.S. Diversity Visa (DV) Lottery. Exploiting the near-random selection of migrants, I compare 
+    lottery winners who resettle in the United States to non-winners who remain in their countries of origin. Drawing on competing 
+    theoretical expectations, I test whether migration experience fosters greater empathy and solidarity with migrants—thereby 
+    increasing support for immigration—or whether it reinforces exclusionary boundary-making that distinguishes between legal and 
+    unauthorized migrants. Using survey data capturing attitudes toward immigration in both origin and destination contexts, 
+    including perceptions of deservingness and legality, this study offers causal evidence on how migration transforms political 
+    preferences. The findings contribute to debates on migrant political incorporation, identity formation, and the broader 
+    dynamics of immigration attitudes in an era of increasing global mobility.
 
 - title: "Sound And Fury, Signifying Nothing? An Empirical Test Of Russian Influence In Asia And Eastern Europe"
   coauthors: "with Jiseon Chang, Danny Cowser, Nivedita Jhunjhunwala, Daniel L. Nielson, and Eoin Power"
