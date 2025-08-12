@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://olgahanc.github.io/sitemap.xml
+Sitemap: https://olgahan.com/sitemap.xml
