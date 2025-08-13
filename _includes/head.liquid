@@ -1,3 +1,4 @@
+
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
@@ -85,6 +86,14 @@
   >
 {% endif %}
 
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ '/android-chrome-192x192.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="512x512" href="{{ '/android-chrome-512x512.png' | relative_url }}">
+<link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}">
+
 {% if site.icon.size <= 4 %}
   <link
     rel="shortcut icon"
@@ -93,6 +102,7 @@
 {% elsif site.icon != blank %}
   <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url | bust_file_cache}}">
 {% endif %}
+
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 
 <!-- Dark Mode -->
