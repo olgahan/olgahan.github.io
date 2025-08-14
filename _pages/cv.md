@@ -1,12 +1,11 @@
+
 ---
-layout: cv
-permalink: 
-title: 
-nav: false
-nav_order: 5
-cv_pdf: Olgahan_CV_6.11.pdf
-description: You can access my CV <a href='/assets/pdf/Olgahan_CV_8.29.pdf'>here</a>.
-toc:
-  sidebar: left
+layout: page
+title: CV
+permalink: /cv/
 ---
 
+#You can view/download my CV [here](assets/CV_OlgahanCat.pdf).  
+
+<!-- Optional: Embed PDF using iframe -->
+<iframe src="/assets/CV_OlgahanCat.pdf" width="100%" height="1200px"></iframe>
