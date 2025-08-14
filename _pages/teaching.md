@@ -14,7 +14,7 @@ Here’s a list of my teaching experience and materials.
   Brown University,Fall 2025
   
 - **Causal Inference**
-- [Syllabus](/assets/pdf/syllabus_causal_inference.pdf) | [Course Page](/causal-inference/)  
+  [Syllabus](/assets/pdf/syllabus_causal_inference.pdf) | [Course Page](/causal-inference/)  
   Brown University, Fall 2025  
 
 - **Statistics II**  
