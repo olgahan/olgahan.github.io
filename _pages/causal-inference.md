@@ -38,7 +38,6 @@ tr:nth-child(even) {
 }
 </style>
 
-# Causal Inference
 **Instructor:** Olgahan Çat  
 **Term:** Fall 2025  
 **E-mail:** [olgahan@brown.edu](mailto:olgahan@brown.edu)  
