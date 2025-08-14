@@ -1,8 +1,11 @@
 
 ---
 layout: page
-title: CV
 permalink: /cv/
+title: CV
+description: 
+nav: true
+nav_order: 2
 ---
 
 <!-- Optional: Embed PDF using iframe -->
