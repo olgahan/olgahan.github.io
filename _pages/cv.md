@@ -9,11 +9,11 @@ nav_order: 2
 ---
 
 <p>
-  <a href="/assets/pdf/Olgahan_CV8.13.pdf" target="_blank" rel="noopener noreferrer" style="font-size: 1.3em; font-weight: bold;">
+  <a href="/assets/pdf/cv8.18.pdf" target="_blank" rel="noopener noreferrer" style="font-size: 1.3em; font-weight: bold;">
     📄 Click to open as PDF in a new tab.
   </a>
 </p>
 
 
 <!-- Optional: Embed PDF using iframe -->
-<iframe src="/assets/pdf/Olgahan_CV8.13.pdf" width="100%" height="1200px"></iframe>
+<iframe src="/assets/pdf/cv8.18.pdf" width="100%" height="1200px"></iframe>
