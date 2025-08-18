@@ -2,6 +2,7 @@
 layout: page
 permalink: /cv/
 title: cv
+hide_title: true
 description: 
 nav: true
 nav_order: 2
