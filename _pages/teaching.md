@@ -7,8 +7,6 @@ nav: true
 nav_order: 4
 ---
 
-Here’s a list of my teaching experience and materials.
-
 ## Courses:
 
 - **Statistics I (PhD)**, Brown University, Fall 2025
