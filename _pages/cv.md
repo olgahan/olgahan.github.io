@@ -9,8 +9,8 @@ nav_order: 2
 ---
 
 <p>
-  📄 <a href="/assets/pdf/Olgahan_CV8.13.pdf" target="_blank" rel="noopener noreferrer">
-    Click to open as PDF in a new tab.
+      <a href="/assets/pdf/Olgahan_CV8.13.pdf" target="_blank" rel="noopener noreferrer">
+    📄 Click to open as PDF in a new tab.
   </a>
 </p>
 
