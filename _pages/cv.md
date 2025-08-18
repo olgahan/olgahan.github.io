@@ -9,7 +9,7 @@ nav_order: 2
 ---
 
 <p>
-  <a href="/assets/pdf/CV.pdf" target="_blank" rel="noopener noreferrer" style="font-size: 1.3em; font-weight: bold;">
+  <a href="/assets/pdf/CV.pdf" target="_blank" rel="noopener noreferrer" style="font-size: 1.3em;">
     📄 Click to open as PDF in a new tab.
   </a>
 </p>
