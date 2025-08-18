@@ -6,8 +6,8 @@
   number: 3
   publisher: "Oxford University Press"
   type: "publication"
-  link_label: "PDF"  # change or delete if not available
-  link: "/assets/pdf/isq.pdf"           # add link if you have it
+  link_label: "PDF"
+  link: "/assets/pdf/isq.pdf"
 
 - title: "A Field Experiment Using Social Media Ads to Encourage COVID-19 Vaccination"
   authors: "Olgahan Çat, Jiseon Chang, Roman Hlatky, Huimin Li, and Daniel Nielson"
@@ -17,45 +17,45 @@
   number: 8
   publisher: "Oxford University Press"
   type: "publication"
-  link_label: "PDF"  # change or delete if not available
-  link: "/assets/pdf/pnasnexus.pdf"           # add link if you have it
+  link_label: "PDF"
+  link: "/assets/pdf/pnasnexus.pdf"
 
 - title: "Fleeing (in)voluntarily: How Projected Patriotism Affects Attitudes Towards Conflict Migrants"
   authors: "Olgahan Cat"
   year: 2025
   type: "working-paper"
   note: "Available upon request"
-  link_label: "Draft"  # optional
-  link: "/assets/pdf/Olgahan_JMP.pdf"             # optional
+  link_label: "Draft"
+  link: "/assets/pdf/Olgahan_JMP.pdf"
 
-  - title: "Projected Patriotism and Its Determinants"
+- title: "Projected Patriotism and Its Determinants"
   authors: "Olgahan Cat"
   year: 2025
   type: "working-paper"
   note: "Available upon request"
-  link_label: "Draft"  # optional
-  link: ""             # optional
+  link_label: "Draft"
+  link: ""
 
-  - title: "Public Attitudes Toward AI Use in Asylum Decisions"
+- title: "Public Attitudes Toward AI Use in Asylum Decisions"
   authors: "Olgahan Cat"
   year: 2025
   type: "working-paper"
   note: "Available upon request"
-  link_label: "Pre-Analysis Plan"  # optional
-  link: "/assets/pdf/PAP_AI.pdf"             # optional
+  link_label: "Pre-Analysis Plan"
+  link: "/assets/pdf/PAP_AI.pdf"
 
-  - title: "Public Preferences Over U.S. Foreign Aid and Border Enforcement"
+- title: "Public Preferences Over U.S. Foreign Aid and Border Enforcement"
   authors: "Olgahan Cat"
   year: 2025
   type: "working-paper"
   note: "Available upon request"
-  link_label: "Pre-Analysis Plan"  # optional
-  link: "/assets/pdf/PAP_AID.pdf"             # optional
+  link_label: "Pre-Analysis Plan"
+  link: "/assets/pdf/PAP_AID.pdf"
 
-  - title: "Migration Experience and Attitudes toward Immigration"
+- title: "Migration Experience and Attitudes toward Immigration"
   authors: "Olgahan Cat"
   year: 2025
   type: "working-paper"
   note: "Available upon request"
-  link_label: "Pre-Analysis Plan"  # optional
-  link: "/assets/pdf/PAP_GC.pdf"             # optional
+  link_label: "Pre-Analysis Plan"
+  link: "/assets/pdf/PAP_GC.pdf"
