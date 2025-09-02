@@ -55,6 +55,7 @@
   type: "working-paper"
   note: "Available upon request"
   link_label: "Draft"
+  stage: "Pre-submission"
   link: "/assets/pdf/Olgahan_JMP.pdf"
   abstract: >
     What shapes attitudes towards conflict migrants? A growing literature points out the events that cause displacement, 
@@ -80,6 +81,7 @@
   type: "working-paper"
   note: "Available upon request"
   link_label: "Draft"
+  stage: "Pre-submission"
   link: "/assets/pdf/PP1.pdf"
   abstract: >
     What do individuals expect regarding the patriotism of others, especially those outside their own national group? 
@@ -107,6 +109,7 @@
   coauthors: "with Betty Compton, Roman Hlatky, Holly Jansen, Amy Liu, and Eoin Power"
   type: "working-paper"
   note: "Available upon request"
+  stage: "Pre-submission"
   #link_label: "Pre-Analysis Plan"
   #link: "/assets/pdf/Emig_draft.pdf"
   abstract: >
@@ -136,6 +139,7 @@
   type: "working-paper"
   note: "Available upon request"
   link_label: "Draft"
+  stage: "Under review"
   link: "/assets/pdf/AAPI.pdf"
   abstract: >
     Survey data from before the 2024 election about Asian American voting behavior did not match exit poll numbers. 
@@ -156,6 +160,7 @@
   coauthors: "with Jiseon Chang, Danny Cowser, Nivedita Jhunjhunwala, Daniel L. Nielson, and Eoin Power"
   type: "working-paper"
   note: "Available upon request"
+  stage: "Data collected"
   #link_label: "Pre-Analysis Plan"
   #link: "/assets/pdf/PAP_Ukraine.pdf"
   abstract: >
@@ -177,6 +182,7 @@
 - title: "How Does Migration Shape Views on Immigration? A Quasi-Natural Experiment"
   type: "working-paper"
   note: "Available upon request"
+  stage: "Pilot"
   #link_label: "Pre-Analysis Plan"
   #link: "/assets/pdf/PAP_GC.pdf"
   abstract: >
@@ -197,6 +203,7 @@
 - title: "AI at the Gates: Public Support for Technology-Driven Migration Governance"
   type: "working-paper"
   note: "Available upon request"
+  stage: "Pilot"
   #link_label: "Pre-Analysis Plan"
   #link: "/assets/pdf/PAP_AI.pdf"
   abstract: >
@@ -214,6 +221,7 @@
 - title: "Foreign Aid, Border Enforcement, and Public Opinion on U.S. Migration Policy"
   type: "working-paper"
   note: "Available upon request"
+  stage: "Pilot"
   #link_label: "Pre-Analysis Plan"
   #link: "/assets/pdf/PAP_AID.pdf"
   abstract: >
@@ -234,6 +242,7 @@
   coauthors: "with Danny Cowser"
   type: "working-paper"
   note: "Available upon request"
+  stage: "Pilot"
   #link_label: "Pre-Analysis Plan"
   #link: "/assets/pdf/PAP_Casa.pdf"
   abstract: >
