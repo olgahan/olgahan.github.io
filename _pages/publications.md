@@ -64,3 +64,33 @@ nav_order: 3
   </div>
   {% endif %}
 {% endfor %}
+
+---
+
+## Work in Progress
+{% assign wip = site.data.publications | where: "type", "wip" %}
+{% for p in wip %}
+- **{{ p.title }}**{% assign coauthors_clean = p.coauthors | to_s | strip %}
+  {% if coauthors_clean != "" %} ({{ coauthors_clean }}){% endif %}
+  {% if p.year %} ({{ p.year }}){% endif %}
+
+  {% if p.abstract or p.link %}
+  <div style="display: flex; gap: 1em; align-items: flex-start; margin: 0.2em 0 1em 0; flex-wrap: wrap;">
+    
+    {% if p.abstract %}
+    <details style="display: inline-block;">
+      <summary style="cursor: pointer;">Abstract</summary>
+      <div style="margin-top: 0.5em;">
+        {{ p.abstract | markdownify }}
+      </div>
+    </details>
+    {% endif %}
+
+    {% if p.link %}
+    <div style="display: inline-block;">
+      <a href="{{ p.link }}">{{ p.link_label | default: "Draft" }}</a>
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+{% endfor %}
