@@ -12,7 +12,11 @@ nav_order: 3
 {% assign pubs = site.data.publications | where: "type", "publication" %}
 {% for pub in pubs %}
 - **{{ pub.title }}**{% assign coauthors_clean = pub.coauthors | to_s | strip %}
-  {% if coauthors_clean != "" %} ({{ coauthors_clean }}){% endif %}, _{{ pub.venue }}_ ({{ pub.year }})
+  {% if coauthors_clean != "" %} ({{ coauthors_clean }}){% endif %}
+  {% if pub.year %} ({{ pub.year }}){% endif %}
+  {% if pub.stage %}
+    <span style="font-style: italic;">[{{ pub.stage }}]</span>
+  {% endif %}
 
   {% if pub.abstract or pub.link %}
   <div style="display: flex; gap: 1em; align-items: flex-start; margin: 0.2em 0 1em 0; flex-wrap: wrap;">
@@ -43,6 +47,9 @@ nav_order: 3
 - **{{ wp.title }}**{% assign coauthors_clean = wp.coauthors | to_s | strip %}
   {% if coauthors_clean != "" %} ({{ coauthors_clean }}){% endif %}
   {% if wp.year %} ({{ wp.year }}){% endif %}
+  {% if wp.stage %}
+    <span style="font-style: italic;">[{{ wp.stage }}]</span>
+  {% endif %}
 
   {% if wp.abstract or wp.link %}
   <div style="display: flex; gap: 1em; align-items: flex-start; margin: 0.2em 0 1em 0; flex-wrap: wrap;">
@@ -73,6 +80,9 @@ nav_order: 3
 - **{{ p.title }}**{% assign coauthors_clean = p.coauthors | to_s | strip %}
   {% if coauthors_clean != "" %} ({{ coauthors_clean }}){% endif %}
   {% if p.year %} ({{ p.year }}){% endif %}
+  {% if p.stage %}
+    <span style="font-style: italic;">[{{ p.stage }}]</span>
+  {% endif %}
 
   {% if p.abstract or p.link %}
   <div style="display: flex; gap: 1em; align-items: flex-start; margin: 0.2em 0 1em 0; flex-wrap: wrap;">
