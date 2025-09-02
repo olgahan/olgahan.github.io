@@ -11,10 +11,7 @@ nav_order: 3
 ## Publications
 {% assign pubs = site.data.publications | where: "type", "publication" %}
 {% for pub in pubs %}
-- **{{ pub.title }}**{% assign coauthors_clean = pub.coauthors | to_s | strip %}
-  {% if coauthors_clean != "" %} ({{ coauthors_clean }}){% endif %}
-  {% if pub.year %} ({{ pub.year }}){% endif %}
-  {% if pub.stage %} [{{ pub.stage }}]{% endif %}
+- **{{ pub.title }}**{% assign coauthors_clean = pub.coauthors | to_s | strip %}{% if coauthors_clean != "" %} ({{ coauthors_clean }}){% endif %}{% if pub.year %} ({{ pub.year }}){% endif %}{% if pub.stage %} [{{ pub.stage }}]{% endif %}
 
   {% if pub.abstract or pub.link %}
   <div style="display: flex; gap: 1em; align-items: flex-start; margin: 0.2em 0 1em 0; flex-wrap: wrap;">
@@ -42,9 +39,7 @@ nav_order: 3
 ## Working Papers
 {% assign wps = site.data.publications | where: "type", "working-paper" %}
 {% for wp in wps %}
-- **{{ wp.title }}**{% assign coauthors_clean = wp.coauthors | to_s | strip %}
-  {% if coauthors_clean != "" %} ({{ coauthors_clean }}){% endif %}
-  {% if wp.stage %} [{{ wp.stage }}]{% endif %}
+- **{{ wp.title }}**{% assign coauthors_clean = wp.coauthors | to_s | strip %}{% if coauthors_clean != "" %} ({{ coauthors_clean }}){% endif %}{% if wp.stage %} [{{ wp.stage }}]{% endif %}
 
   {% if wp.abstract or wp.link %}
   <div style="display: flex; gap: 1em; align-items: flex-start; margin: 0.2em 0 1em 0; flex-wrap: wrap;">
@@ -72,10 +67,7 @@ nav_order: 3
 ## Work in Progress
 {% assign wip = site.data.publications | where: "type", "wip" %}
 {% for p in wip %}
-- **{{ p.title }}**{% assign coauthors_clean = p.coauthors | to_s | strip %}
-  {% if coauthors_clean != "" %} ({{ coauthors_clean }}){% endif %}
-  {% if p.year %} ({{ p.year }}){% endif %}
-  {% if p.stage %} [{{ p.stage }}]{% endif %}
+- **{{ p.title }}**{% assign coauthors_clean = p.coauthors | to_s | strip %}{% if coauthors_clean != "" %} ({{ coauthors_clean }}){% endif %}{% if p.year %} ({{ p.year }}){% endif %}{% if p.stage %} [{{ p.stage }}]{% endif %}
 
   {% if p.abstract or p.link %}
   <div style="display: flex; gap: 1em; align-items: flex-start; margin: 0.2em 0 1em 0; flex-wrap: wrap;">
