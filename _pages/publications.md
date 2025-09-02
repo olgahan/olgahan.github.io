@@ -44,7 +44,6 @@ nav_order: 3
 {% for wp in wps %}
 - **{{ wp.title }}**{% assign coauthors_clean = wp.coauthors | to_s | strip %}
   {% if coauthors_clean != "" %} ({{ coauthors_clean }}){% endif %}
-  {% if wp.year %} ({{ wp.year }}){% endif %}
   {% if wp.stage %} [{{ wp.stage }}]{% endif %}
 
   {% if wp.abstract or wp.link %}
