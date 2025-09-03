@@ -38,7 +38,8 @@ longstanding assumptions in the migration literature.
 
 <p style="text-align: justify;">
 My research has been published in <em>International Studies Quarterly</em> and <em>PNAS Nexus</em>. 
-Information on these papers, along with ongoing projects, can be found <a href="publications.md">here</a>. 
+Information on these papers, along with ongoing projects, can be found <a href="publications.md">here</a>.
+
 You can also access my CV <a href='/assets/pdf/CV.pdf'>here</a>.
 </p>
 
