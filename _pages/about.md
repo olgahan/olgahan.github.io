@@ -7,7 +7,7 @@ subtitle:
 profile:
   align: right
   image: prof_pic.png
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <a href="mailto:olgahan@brown.edu">olgahan@brown.edu</a>
     
@@ -18,10 +18,6 @@ social: false # includes social icons at the bottom of the page
 ---
 
 
-<div style="float: right; margin: 0 0 10px 20px; width: 200px;">
-  <img src="/assets/images/prof_pic.png" style="width: 100%; border-radius: 50%;" />
-  <p style="text-align: center;"><a href="mailto:olgahan@brown.edu">olgahan@brown.edu</a></p>
-</div>
 
 <p style="text-align: justify;">
 I am a <strong>Visiting Assistant Professor of Quantitative Methods</strong> at Brown University. 
