@@ -16,7 +16,6 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-I am a Visiting Assistant Professor of Quantitative Methods at Brown University.
 
 I am a Visiting Assistant Professor of Quantitative Methods at Brown University. I received my Ph.D. in Government from the University of Texas at Austin in 2025. My research agenda examines the influence of global flows of people, resources, and information in conflict contexts, with a particular focus on public attitudes. I combine experimental and quasi-experimental methods to study how individuals respond to migration, foreign aid, and pressing global challenges.
 
