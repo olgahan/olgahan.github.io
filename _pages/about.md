@@ -31,7 +31,7 @@ My dissertation, <em>Fleeing (in)voluntarily: How Projected Patriotism Shapes At
 introduces the novel concept of <strong>Projected Patriotism</strong> — the idea that people attribute patriotic obligations 
 to citizens of other countries and judge them accordingly. Unlike existing understandings of patriotism, which center on 
 individuals’ attachment to their own nation, Projected Patriotism shifts the focus outward, capturing how expectations 
-of patriotism are imposed across national boundaries. Using survey experiments in Turkey and the United States, my work 
+of patriotism are imposed across national boundaries. Using survey experiments in the United States and Turkey, my work 
 challenges the conventional wisdom that conflict refugees are viewed more positively than economic migrants, revisiting 
 longstanding assumptions in the migration literature.
 </p>
@@ -39,6 +39,7 @@ longstanding assumptions in the migration literature.
 <p style="text-align: justify;">
 My research has been published in <em>International Studies Quarterly</em> and <em>PNAS Nexus</em>. 
 Information on these papers, along with ongoing projects, can be found <a href="publications">here</a>.
+
 
 You can also access my CV <a href='/assets/pdf/CV.pdf'>here</a>.
 </p>
