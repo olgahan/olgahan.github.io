@@ -42,10 +42,10 @@ tr:nth-child(even) {
 **Term:** Fall 2025  
 **E-mail:** [olgahan@brown.edu](mailto:olgahan@brown.edu)  
 **Website:** [olgahan.com/TBD](https://olgahan.com/TBD)  
-**Office Hours:** TBD — Sign up: [Calendly](https://calendly.com)  
+**Office Hours:** Thursday, 10am-noon — Sign up: [Calendly](https://calendly.com/olgahan_cat-brown/30min)  
 **Class Hours:** Wednesday, 4–6:30pm  
-**Office:** TBD  
-**Classroom:** TBD  
+**Office:** 315  
+**Classroom:** Birkelund Board Room
 
 **Main Reference:**  
 - Cunningham, Scott. *Causal Inference: The Mixtape*. Yale University Press, 2021.
