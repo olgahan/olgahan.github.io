@@ -55,7 +55,7 @@
   type: "working-paper"
   note: "Available upon request"
   link_label: "Draft"
-  stage: "Pre-submission"
+  stage: "JMP"
   link: "/assets/pdf/Olgahan_JMP.pdf"
   abstract: >
     What shapes attitudes towards conflict migrants? A growing literature points out the events that cause displacement, 
@@ -81,7 +81,7 @@
   type: "working-paper"
   note: "Available upon request"
   link_label: "Draft"
-  stage: "Pre-submission"
+  stage: "Under review"
   link: "/assets/pdf/PP1.pdf"
   abstract: >
     What do individuals expect regarding the patriotism of others, especially those outside their own national group? 
@@ -104,6 +104,22 @@
     identity, migration politics, and political polarization across varied political settings.
     <br><br>
     <img src="/assets/img/pp1corr.png" alt="" style="max-width:70%; margin-top:1em;">
+
+
+
+- title: "Decoupled Association: Terrorism, Extreme Threat, and Immigration Attitudes"
+  type: "working-paper"
+  note: "Available upon request"
+  stage: "Under review"
+  #link_label: "Pre-Analysis Plan"
+  #link: "/assets/pdf/Emig_draft.pdf"
+  abstract: >
+    A large literature shows that terrorist attacks generate public back- lash against immigrants and related outgroups. These findings are typ- ically interpreted as plausible responses to violence when perpetrators are themselves immigrants or are widely perceived as such. Yet this assumption has become increasingly untenable. Since the mid-2000s, the majority of Islamist terrorist attacks in Western Europe have been carried out by native-born citizens rather than first-generation immi- grants, creating a disconnect between the attributes of perpetrators and the outgroups that absorb public hostility. This paper asks whether anti-immigrant reactions to terrorism persist even when the factual ba- sis for associating immigrants with violence is weak. I define decoupled association to capture a process in which extreme threat activates neg- ative attitudes toward immigrants despite the erosion of factual overlap between perpetrators and immigrant status. I test this argument us- ing the November 13, 2015 terrorist attacks in France, exploiting their quasi-random timing within Eurobarometer 84.3 as a natural exper- iment. Across a broad set of outcomes capturing both immigration policy preferences and social hostility, exposure to the attacks produces robust negative shifts in attitudes toward immigrants and refugees, and - most strikingly - are highly homogeneous across ideological, social, and demographic subgroups. This pattern contrasts with much of the prior literature, which emphasizes heterogeneous responses moderated by these subgroups. Taken together, the findings suggest that under conditions of extreme threat, heuristic-based attribution overwhelms deliberative reasoning, sustaining anti-immigrant backlash even when the empirical link between immigrants and terrorism has effectively col- lapsed.
+    <br><br>
+    <img src="/assets/img/cumulative_plot_clean.png" alt="" style="max-width:70%; margin-top:1em;">
+
+
+
 
 - title: "The Legitimacy of Wartime Emigration: Evidence from a Conjoint Experiment in Ukraine"
   coauthors: "with Betty Compton, Roman Hlatky, Holly Jansen, Amy Liu, and Eoin Power"
