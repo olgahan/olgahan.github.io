@@ -118,7 +118,27 @@
     <br><br>
     <img src="/assets/img/cumulative_plot_clean.png" alt="" style="max-width:70%; margin-top:1em;">
 
-
+- title: "Language and Voting Behavior among Asian Americans: The Case of the 2024 US Presidential Elections"
+  coauthors: "with Amy Liu, Jangai Jap, Keith Chew and others"
+  type: "working-paper"
+  note: "Available upon request"
+#  link_label: "Draft"
+  stage: "Under review"
+#  link: "/assets/pdf/AAPI.pdf"
+  abstract: >
+    Survey data from before the 2024 election about Asian American voting behavior did not match exit poll numbers. 
+    What explains this discrepancy? In this note we argue there are methodological limitations – specifically with 
+    the data collection process. Existing surveys systematically under-sample English-limited Asian Americans – 
+    a population that is almost 44% of the community. Consider how less than 2% of the Asian respondents in the CMPS 
+    took the survey in an Asian language. Since linguistic proficiency is not randomly distributed, what this means 
+    is that research on Asian Americans is largely biased towards liberals and Democrats. We fielded an original survey
+    that draws on extensive, targeted recruiting of the Asian American community (N=4956) – of which 28% of the respondents
+    took the survey in a non-English language. Our results not only match exit polls but also highlight – on average – a 14% gap 
+    in Democrat support between English and non-English language speakers in the Asian American community. This note 
+    offers a workflow for future researchers to think about how to sample non-English speaking communities in the US 
+    with minimal financial barriers.
+    <br><br>
+    <img src="/assets/img/aapi.png" alt="" style="max-width:70%; margin-top:1em;">
 
 
 - title: "The Legitimacy of Wartime Emigration: Evidence from a Conjoint Experiment in Ukraine"
@@ -150,27 +170,31 @@
     <br><br>
     <img src="/assets/img/amce_emig_binary.png" alt="" style="max-width:70%; margin-top:1em;">
 
-- title: "Language and Voting Behavior among Asian Americans: The Case of the 2024 US Presidential Elections"
-  coauthors: "with Amy Liu, Jangai Jap, Keith Chew and others"
+- title: "Moral Judgments Under Fire: Gender, Ethnicity, and Recognition in Ukraine"
+  coauthors: "with Betty Compton, Roman Hlatky, Holly Jansen, Amy Liu, and Eoin Power"
   type: "working-paper"
   note: "Available upon request"
-  link_label: "Draft"
-  stage: "Under review"
-  link: "/assets/pdf/AAPI.pdf"
+  stage: "Pre-submission"
+  #link_label: "Pre-Analysis Plan"
+  #link: "/assets/pdf/Emig_draft.pdf"
   abstract: >
-    Survey data from before the 2024 election about Asian American voting behavior did not match exit poll numbers. 
-    What explains this discrepancy? In this note we argue there are methodological limitations – specifically with 
-    the data collection process. Existing surveys systematically under-sample English-limited Asian Americans – 
-    a population that is almost 44% of the community. Consider how less than 2% of the Asian respondents in the CMPS 
-    took the survey in an Asian language. Since linguistic proficiency is not randomly distributed, what this means 
-    is that research on Asian Americans is largely biased towards liberals and Democrats. We fielded an original survey
-    that draws on extensive, targeted recruiting of the Asian American community (N=4956) – of which 28% of the respondents
-    took the survey in a non-English language. Our results not only match exit polls but also highlight – on average – a 14% gap 
-    in Democrat support between English and non-English language speakers in the Asian American community. This note 
-    offers a workflow for future researchers to think about how to sample non-English speaking communities in the US 
-    with minimal financial barriers.
+    Public judgments about who deserves recognition for contributing to the war effort shape the distribution
+    of honor and legitimacy in wartime societies. We argue that when information about contribution is limited,
+    evaluators rely on identity-based expectations linked to gender and ethnicity to infer sacrifice, loyalty, and
+    competence. Clear evidence of costly contribution can reduce reliance on these expectations. We test this
+    argument with a preregistered paired-profile conjoint experiment fielded in Ukraine in 2024. Respondents
+    evaluated randomly varied profiles and indicated whom a national agency should feature and whether
+    each profile merited state recognition. Signals of high sacrifice, including dying in fighting or defending
+    a city, generate broad agreement and compress identity-based differences. By contrast, ambiguous or
+    loyalty-sensitive statuses receive the steepest penalties and are where gender and ethnic differences are
+    most evident. Gender differences are modest overall and become most apparent when status information is
+    ambiguous. Ethnic penalties are concentrated on Russian profiles, while other minority categories cluster
+    near the baseline. Across outcomes, individuating evidence of costly contribution attenuates identity-based
+    disparities, indicating that recognition regimes are most stratified under uncertainty and converge as
+    signals of contribution become more diagnostic
     <br><br>
-    <img src="/assets/img/aapi.png" alt="" style="max-width:70%; margin-top:1em;">
+    <img src="/assets/img/ukg_amce_binary.png" alt="" style="max-width:70%; margin-top:1em;">
+
 
 - title: "Sound And Fury, Signifying Nothing? An Empirical Test Of Russian Influence In Asia And Eastern Europe"
   coauthors: "with Jiseon Chang, Danny Cowser, Nivedita Jhunjhunwala, Daniel L. Nielson, and Eoin Power"
