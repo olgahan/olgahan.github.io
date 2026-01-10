@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <title>GU Qatar Slider App</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<html>
+  <body>
+    <h1>GU Qatar Slider App</h1>
+    <label>Pick a number:</label>
+    <input id="num" type="range" min="1" max="100" value="50"/>
+    <span id="numval">50</span>
+    <div>
+      You picked: 
+      <span id="result">50</span>
+    </div>
+    <script>
+        $('#num').on('input', function() {
+          var val = $(this).val();
+          $('#numval').text(val);
+          $('#result').text(val);
+        });
+      </script>
+  </body>
+</html>
+</html>
