@@ -1,0 +1,539 @@
+---
+title: "Social Data Science"
+subtitle: "Statistical Reasoning: Interpreting Patterns in Data"
+author: "Olgahan Çat (olgahan@brown.edu)"
+format:
+  revealjs:
+    slide-number: true
+    incremental: true
+    center: true
+    css: styles.css
+
+---
+
+![](first_slide.png){style="width:100vw; height:100vh; object-fit:contain; display:block; margin:0;"}
+
+
+## Goals
+- Find out whether data **automatically** tells us what is true or not
+- Identify **patterns** in data and describe what they show
+- Distinguish **descriptive, predictive, and causal** claims
+- Ask better questions when someone makes a **data-based claim**
+
+## Why statistical reasoning matters?
+- **Intellectual skill:** Reason carefully about patterns in human behavior
+- **Academia:** Read, interpret, and contribute to social science research
+- **Policy:** Evaluate evidence behind decisions that affect society
+- **Private sector & life:** Use data responsibly to anticipate outcomes
+
+
+## "According to data..."
+### Does data speak?
+
+::: columns
+
+::: {.column width="60%"}
+
+- Common claims: 
+  - "The **data says** X causes Y"
+  - "**According to data**, A is better than B"
+- Implied: data reveals objective truth
+- Reality: data **requires interpretation**
+
+:::
+
+::: {.column width="40%" .center}
+
+![](s1.png){width=100%}
+
+:::
+
+:::
+
+## Variables
+
+- Characteristics that vary
+
+![](s2.png){width=100%}
+
+
+## Types of Variables
+
+- Nominal/categorical: **Cannot be ordered** 
+  - Region
+- Ordinal: **Ordered**
+  - Very liberal < Liberal < Moderate < Conservative < Very conservative
+-Numerical: Ordered + **equidistant**
+  - Age, GDP, number of casualties
+
+
+## Practice
+### Varieties of Democracy’s regime type measure:
+
+- 0: Closed autocracy – No multiparty elections
+- 1: Electoral autocracy – De-jure elections but not free and fair
+- 2: Electoral democracy – Free and fair elections with some flaws
+- 3: Liberal democracy – Free and fair elections guaranteed
+
+
+## Political Regimes
+### Interactive Map
+
+<iframe 
+    src="https://ourworldindata.org/grapher/political-regime?tab=map" 
+    loading="lazy" 
+    style="width:100%; height:600px; border:0;" 
+    allow="web-share; clipboard-write">
+</iframe>
+
+## Descriptive Statistics
+### Summarizing Patterns: Categorical data
+
+
+::: columns
+
+::: {.column width="60%"}
+
+- Counts / frequencies: How many observations fall in each category.
+- Percentages / proportions: Useful to compare groups.
+- Mode: The most common category
+
+
+:::
+
+::: {.column width="40%" .center}
+
+![](sm.png){width=40%}
+*Source: qatarcars*
+
+:::
+
+:::
+
+## Descriptive Statistics
+### Summarizing Patterns: Numerical data
+
+
+::: columns
+
+::: {.column width="60%"}
+
+
+- Measures of central tendency:
+  - Mean (average): Add values, divide by count
+  - Median: Middle value when ordered
+  - Mode: Most common value
+- Measures of spread / variability:
+  - Range: Difference between max and min
+  - Standard deviation 
+
+:::
+
+::: {.column width="40%" .center}
+
+![](sm2.png){width=40%}
+*Source: qatarcars*
+:::
+
+:::
+
+## Predictive Reasoning
+### Can we forecast outcomes?
+
+
+::: columns
+
+::: {.column width="60%"}
+
+
+
+- Use patterns to **predict an outcome**
+- Example: **Next election**, would we expect a high or low turnout at a **university town?**
+- What if we want to know <span style="color:#8B0000;">**why?**</span> 
+
+:::
+
+::: {.column width="40%" .center}
+
+![](s4.png){width=100%}
+
+:::
+
+:::
+
+
+
+## Causal Inference
+### Does X cause Y?
+
+
+::: columns
+
+::: {.column width="60%"}
+
+
+
+- X: Independent variable
+- Y: Dependent variable
+- Causal claims are everywhere
+- The ultimate question: 
+  - **does changing X change Y**
+
+  
+:::
+
+::: {.column width="40%"}
+
+![](s5.png){width=80%}
+
+:::
+
+:::
+
+
+## Do democracy promotion programs reduce protests?
+
+![](s6.png){style="width:40%; max-height:200px; display:block; margin:auto;"}
+
+- Average protests if received program: (2+1+3)/3 = 2 →  <span style="color:#000080;">**fewer protests**</span> 
+- Average protests if no program: (5+4+6)/3 = 5 →  <span style="color:#8B0000;">**more protests**</span> 
+- what if we knew **both worlds?**
+
+
+## Counterfactuals
+### What would Y be if X did not change/take place?
+
+- If Trump did not win 2024 elections, would Maduro still be in power? 
+- If it wasn’t for Qatar, would **Messi ever win the World Cup?**
+- 
+- 
+
+
+## Potential Outcomes & Counterfactuals
+
+
+![](s7.png){style="width:50%; max-height:200px; display:block; margin:auto;"}
+
+- Going back to the example, **we do not know the counterfactuals**. 
+- But **let's assume** we do know them...
+
+## Potential Outcomes & Counterfactuals
+
+
+![](s8.png){style="width:50%; max-height:200px; display:block; margin:auto;"}
+
+
+- Average effect for countries that received program: (2+1+0)/3 = 1
+- Average effect for countries that did not receive program: (1+1+1)/3 = 1
+
+
+## Causal Inference
+### Does a change in X cause a change in Y?
+
+- Patterns alone are not enough
+  - Observations that are treated and not treated tend to be **systematically different:** <span style="color:#8B0000;">**Selection bias**</span> 
+- Without counterfactuals, it is difficult to make causal claims
+
+## 
+
+<div style="display:flex; justify-content:center; align-items:center; height:100%;">
+  <h1 style="font-size:3em; text-align:center;">
+    <span style="color:#000080;">**How do we detect counterfactuals?**</span>
+  </h1>
+</div>
+
+
+##
+
+<div style="display:flex; justify-content:center; align-items:center; height:100%;">
+  <h1 style="font-size:3em; text-align:center;">
+    <span style="color:#000080;">**Bad news:**</span> <span style="color:#8B0000;">**we can't**</span> 
+  </h1>
+</div>
+
+##
+
+<div style="display:flex; justify-content:center; align-items:center; height:100%;">
+  <h1 style="font-size:3em; text-align:center;">
+    <span style="color:#000080;">**Bad news:**</span> <span style="color:#8B0000;">**we can't**</span> 
+  </h1>
+</div>
+
+**Fundamental Problem of Causal Inference: We never observe the counterfactual**
+
+## 
+
+<div style="display:flex; justify-content:center; align-items:center; height:100%;">
+  <h1 style="font-size:3em; text-align:center;">
+    <span style="color:#000080;">**Good news:**</span> <span style="color:#8B0000;">**we can predict them**</span> 
+  </h1>
+</div>
+
+## 
+
+<div style="display:flex; justify-content:center; align-items:center; height:100%;">
+  <h1 style="font-size:3em; text-align:center;">
+    <span style="color:#000080;">**Good news:**</span> <span style="color:#8B0000;">**we can predict them**</span> 
+  </h1>
+</div>
+**Causal inference = imputing the counterfactual and estimating the effect**
+
+## Imputing the counterfactual
+
+- Qualitatively
+  - Case studies
+- Quantitatively
+  - Experiments
+  - Observational studies
+  
+  
+
+## Experiments
+### Gold standard
+
+
+- **Random assignment** ensures no selection bias
+- Isolate the effect of X on Y
+
+## Let's think about this intuitively
+### An example from a field experiment in Pakistan (Cheema et al. 2022)
+
+
+- How can we close persistent gender gaps in political participation?
+   - Male household members as **“gatekeepers” of women’s participation**
+- Targeting women -> no effect
+- **Targeting male household members** -> increase in women’s turnout 
+
+
+## Let's think about this intuitively
+### An example from a field experiment in Pakistan (Cheema et al. 2022)
+
+
+![](s9.png){style="width:50%; max-height:300px; display:block; margin:auto;"}
+
+*Figure: A random sample of households in Pakistan*
+
+
+## Let's think about this intuitively
+### An example from a field experiment in Pakistan (Cheema et al. 2022)
+
+![](s10.png){style="width:50%; max-height:300px; display:block; margin:auto;"}
+
+*Figure: Each household has potential outcomes <span style="color:#8B0000;">**treated**</span>  and <span style="color:#000080;">**control**</span> *
+
+
+
+## Let's think about this intuitively
+### An example from a field experiment in Pakistan (Cheema et al. 2022)
+
+
+::: columns
+
+::: {.column width="60%"}
+
+
+
+- When you assign a household to treated, **you are realizing the household’s potential outcome under treatment**
+
+- When you assign a household to control, **you are realizing the household’s potential outcome under control**
+
+  
+:::
+
+::: {.column width="40%" .center}
+
+![](s11.png){width=80%}
+
+:::
+
+:::
+
+## Let's think about this intuitively
+### An example from a field experiment in Pakistan (Cheema et al. 2022)
+
+
+![](s12.png){width=40%}
+
+
+*Random assignment to treated or control means **we’re drawing a random sample of these potential outcomes***
+
+
+## Exercise
+### An example from a field experiment in Pakistan (Cheema et al. 2022)
+
+![](s13.png){width=40%}
+
+
+
+## Exercise
+### An example from a field experiment in Pakistan (Cheema et al. 2022)
+
+![](s14.png){width=40%}
+
+
+
+## Exercise
+### An example from a field experiment in Pakistan (Cheema et al. 2022)
+
+![](s15.png){width=40%}
+
+
+
+## Exercise
+### An example from a field experiment in Pakistan (Cheema et al. 2022)
+
+![](s16.png){width=40%}
+
+
+
+<!-- ## Experiments -->
+<!-- ### Limitations -->
+
+<!-- - Why not run experiments for everything? -->
+<!--   - Practicality  -->
+<!--   - Feasibility -->
+<!--   - Ethical considerations  -->
+
+## Experiments
+### Limitations
+
+- Why not run experiments for everything?
+  - **Practical constraints**
+    - Cost, time, scale
+  - **Feasibility**
+    - Cannot randomly assign many social conditions
+  - **Ethical considerations**
+    - Harm, consent, fairness
+
+## Observational Designs
+### When we cannot run experiments
+
+- Many social questions **cannot be randomized**
+  - Democracy, migration, welfare, education
+- Policies are **not supposed to be not assigned at random**
+  - Welfare is not given to the rich
+- This creates **selection bias**
+
+
+<!-- ## Observational designs -->
+<!-- ### When we can not run experiments -->
+
+<!-- - Many social questions can not be randomized -->
+<!--   - Examples? -->
+<!-- - Most interesting questions/policies tend to favor selection -->
+<!--   - Why give welfare to rich? -->
+<!-- - Luckily, there are design-based approaches -->
+
+<!-- ## Matching -->
+<!-- ### Comparing similar units -->
+
+<!-- - Do UN peacekeeping missions reduce civilian deaths? -->
+<!-- - Naive comparison can mislead: Peacekeepers might more likely to be sent to more severe conflicts. -->
+<!-- - Compare only those with similar conflict intensity. -->
+
+<!-- ## Discontinuity designs -->
+<!-- ### Compare units around a threshold -->
+
+<!-- - Thresholds allow for natural divergence:  -->
+<!--   - Elections -->
+<!--   - Welfare programs -->
+
+<!-- - Example: How does tutoring affect student performance? -->
+
+<!--   - Selection bias: Students who do and do not receive tutoring might be systematically different -->
+
+<!-- - Discontinuity: Students who score 70 or below are automatically enrolled in a free tutoring program and receive assistance throughout the year. -->
+
+## Matching
+### Comparing similar units
+
+- **Idea:** Compare units that are **similar in important ways**, except for whether they received the treatment
+  <!-- - This helps reduce unfair comparisons -->
+
+- **Example:** Do UN peacekeeping missions reduce civilian deaths?
+  - Problem: Peacekeepers are sent to more violent conflicts
+  - Solution: Compare conflicts with **similar violence levels**
+    - Some with peacekeepers | some without
+    
+    
+## Discontinuity Designs
+### Comparing units near a cutoff
+
+- Some policies use **clear rules or thresholds**
+  - Elections, Welfare programs
+- Example: **Does tutoring improve student performance?**
+
+- Problem: Students who do and do not get tutoring may already be different
+
+- Policy: Students scoring **70 or below** get tutoring
+  - Compare students **just below and just above 70**
+
+
+## Discontinuity designs
+### Compare units around a threshold
+
+![](s17.png){width=40%}
+
+*Source: Andrew Heiss*
+
+<!-- ## Difference in Differences -->
+<!-- ### Compare units that follow similar trends the treatment -->
+
+<!-- - How do sanctions affect human rights violations? -->
+<!-- - Two countries:  -->
+<!--   - One sanctioned (treated) -->
+<!--   - One not sanctioned (control) -->
+<!-- - The dif-in-dif can be attributed to intervention if -->
+<!--   - They follow parallel trends before the intervention -->
+
+## Difference in Differences
+### Comparing changes over time
+
+- **Idea:**
+  - Compare how outcomes **change over time** between a treated group and a similar control group
+  - Focus on differences in **trends**, not levels
+
+## Difference in Differences
+### Comparing changes over time
+
+- **Example:** How do sanctions affect human rights violations?
+  - Two countries:
+    - One sanctioned (treated)
+    - One not sanctioned (control)
+  - Key assumption:
+    - Both countries followed **similar trends before** sanctions
+    
+    
+## Difference in Differences
+### Compare units that follow similar trends the treatment
+
+![](s18.png){width=30%}
+
+*Source: Kevin Goulding*
+
+## Other designs for observational data
+
+- Instrumental variable
+- Synthetic control
+- Shared goal: **imputing the counterfactual using appropriate the design**
+
+
+## Takeaways
+### Why statistics matters
+
+- Data don’t speak for themselves: they are produced, measured, and **interpreted by humans.**
+- Statistical reasoning is **powerful:** bad data, poor comparisons, or **naive interpretation can mislead.**
+
+
+## Takeaways
+### Why learn?
+
+- **Policy relevance:** make sense of interventions and their consequences.
+- **Social science literacy:** read and critique academic research confidently.
+- **Real-world decision-making:** informed skepticism is a marketable skill anywhere data are used.
+
+## Thank You
+### Questions & Discussion
+
+- Thank you for your attention!
+- Feedback, questions, connections: **olgahan@brown.edu**

@@ -1,0 +1,61 @@
+/* =========================
+   Global font for all slides
+========================= */
+.reveal {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* =========================
+   All slide titles (##)
+========================= */
+.reveal h2 {
+    color: #1A3E8E;  /* navy-ish Keynote blue */
+}
+
+/* All slide subtitles (###) */
+.reveal h3 {
+    color: #a83c21;  /* dark aqua */
+}
+
+/* =========================
+   First slide (title slide)
+========================= */
+.reveal .title-slide {
+    background-color: #000080; /* navy background */
+    color: #D3D3D3;            /* grey text */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical centering */
+    align-items: center;     /* horizontal centering */
+    height: 100%;
+    position: relative;
+}
+
+/* First slide title */
+.reveal .title-slide h1,
+.reveal .title-slide h2 {
+    color: #D3D3D3;
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+/* First slide subtitle */
+.reveal .title-slide h3 {
+    color: #D3D3D3;
+    font-size: 2em;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+/* Author/date at bottom of first slide */
+.reveal .title-slide .author,
+.reveal .title-slide .date {
+    color: #D3D3D3;
+    font-size: 1em;
+    position: absolute;
+    bottom: 2em;
+    width: 100%;
+    text-align: center;
+}
