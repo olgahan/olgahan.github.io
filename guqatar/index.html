@@ -6,10 +6,10 @@
 <script src="guqatar_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="guqatar_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="guqatar_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="guqatar_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.42">
+<link href="guqatar_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.27">
 
-  <meta name="author" content="Olgahan Çat (olgahan@brown.edu)">
+  <meta name="author" content="Olgahan Çat | Slides: guqatar.olgahan.com">
   <title>Social Data Science</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -29,7 +29,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="guqatar_files/libs/revealjs/dist/theme/quarto-2f366650f320edcfcf53d73c80250a32.css">
+  <link rel="stylesheet" href="guqatar_files/libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
   <link rel="stylesheet" href="styles.css">
   <link href="guqatar_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="guqatar_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -122,6 +122,8 @@
       margin-right: 0; 
     }
   </style>
+  <script src="guqatar_files/libs/kePrint-0.0.1/kePrint.js"></script>
+  <link href="guqatar_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -134,21 +136,16 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Olgahan Çat (olgahan@brown.edu) 
+Olgahan Çat | Slides: guqatar.olgahan.com 
 </div>
 </div>
 </div>
 
-</section>
-<section class="slide level2 center">
-
-<p><img data-src="first_slide.png" style="width:100vw; height:100vh; object-fit:contain; display:block; margin:0;"></p>
 </section>
 <section id="goals" class="slide level2 center">
 <h2>Goals</h2>
 <ul>
-<li class="fragment">Find out whether data <strong>automatically</strong> tells us what is true or not</li>
-<li class="fragment">Identify <strong>patterns</strong> in data and describe what they show</li>
+<li class="fragment">Find out whether data <strong>automatically</strong> tells us what is true or not <!-- - Identify **patterns** in data and describe what they show --></li>
 <li class="fragment">Distinguish <strong>descriptive, predictive, and causal</strong> claims</li>
 <li class="fragment">Ask better questions when someone makes a <strong>data-based claim</strong></li>
 </ul>
@@ -156,50 +153,124 @@ Olgahan Çat (olgahan@brown.edu)
 <section id="why-statistical-reasoning-matters" class="slide level2 center">
 <h2>Why statistical reasoning matters?</h2>
 <ul>
-<li class="fragment"><strong>Intellectual skill:</strong> Reason carefully about patterns in human behavior</li>
-<li class="fragment"><strong>Academia:</strong> Read, interpret, and contribute to social science research</li>
+<li class="fragment"><strong>Intellectual skill:</strong> Reason carefully about patterns in life</li>
 <li class="fragment"><strong>Policy:</strong> Evaluate evidence behind decisions that affect society</li>
-<li class="fragment"><strong>Private sector &amp; life:</strong> Use data responsibly to anticipate outcomes</li>
+<li class="fragment"><strong>Private sector:</strong> Use data responsibly to add value</li>
+<li class="fragment"><strong>Academia:</strong> Read, interpret, and contribute to social science research</li>
+</ul>
+</section>
+<section id="proportion-of-political-science-papers-by-method" class="slide level2 center">
+<h2>Proportion of Political Science papers by method</h2>
+<p><img data-src="psci.png" style="width:100.0%"> <em>Source: Carolina Torreblanca</em></p>
+</section>
+<section id="proportion-of-political-science-papers-by-method-1" class="slide level2 center">
+<h2>Proportion of Political Science papers by method</h2>
+<ul>
+<li class="fragment"><strong>Does not mean</strong> quantitative methods are better</li>
+<li class="fragment"><strong>Does not mean</strong> you have to use quantitative methods</li>
+<li class="fragment">But it is probably a good idea to learn <strong>some statistics</strong> to engage with the discipline</li>
 </ul>
 </section>
 <section id="according-to-data" class="slide level2 center">
 <h2>“According to data…”</h2>
-<h3 id="does-data-speak">Does data speak?</h3>
-<div class="columns">
-<div class="column" style="width:60%;">
+<h3 id="do-data-speak">Do data speak?</h3>
+<p><img data-src="wp.png" style="width:50.0%"> <img data-src="s1.png" style="width:50.0%"></p>
+</section>
+<section id="according-to-data-1" class="slide level2 center">
+<h2>“According to data…”</h2>
+<h3 id="do-data-speak-1">Do data speak?</h3>
 <ul>
-<li class="fragment">Common claims:
-<ul>
-<li class="fragment">“The <strong>data says</strong> X causes Y”</li>
-<li class="fragment">“<strong>According to data</strong>, A is better than B”</li>
-</ul></li>
 <li class="fragment">Implied: data reveals objective truth</li>
 <li class="fragment">Reality: data <strong>requires interpretation</strong></li>
 </ul>
-</div><div class="column center" style="width:40%;">
-<p><img data-src="s1.png" style="width:100.0%"></p>
-</div></div>
 </section>
 <section id="variables" class="slide level2 center">
 <h2>Variables</h2>
-<ul>
-<li class="fragment">Characteristics that vary</li>
-</ul>
-
-<img data-src="s2.png" style="width:100.0%" class="r-stretch"></section>
+<p>Characteristics that vary<br>
+<!-- ![](s2.png){width=70%} --></p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table caption-top" style="font-size: 30px; width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Country</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Continent</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Year</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Life Expectancy</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">GDP per Capita</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Afghanistan</td>
+<td style="text-align: left;">Asia</td>
+<td style="text-align: right;">2007</td>
+<td style="text-align: right;">43.8</td>
+<td style="text-align: right;">974.6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Albania</td>
+<td style="text-align: left;">Europe</td>
+<td style="text-align: right;">2007</td>
+<td style="text-align: right;">76.4</td>
+<td style="text-align: right;">5937.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Algeria</td>
+<td style="text-align: left;">Africa</td>
+<td style="text-align: right;">2007</td>
+<td style="text-align: right;">72.3</td>
+<td style="text-align: right;">6223.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Angola</td>
+<td style="text-align: left;">Africa</td>
+<td style="text-align: right;">2007</td>
+<td style="text-align: right;">42.7</td>
+<td style="text-align: right;">4797.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Argentina</td>
+<td style="text-align: left;">Americas</td>
+<td style="text-align: right;">2007</td>
+<td style="text-align: right;">75.3</td>
+<td style="text-align: right;">12779.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Australia</td>
+<td style="text-align: left;">Oceania</td>
+<td style="text-align: right;">2007</td>
+<td style="text-align: right;">81.2</td>
+<td style="text-align: right;">34435.4</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><em>Source: Gapminder Foundation</em></p>
+</section>
 <section id="types-of-variables" class="slide level2 center">
 <h2>Types of Variables</h2>
 <ul>
 <li class="fragment">Nominal/categorical: <strong>Cannot be ordered</strong>
 <ul>
-<li class="fragment">Region</li>
+<li class="fragment">Region, conflict types</li>
 </ul></li>
 <li class="fragment">Ordinal: <strong>Ordered</strong>
 <ul>
-<li class="fragment">Very liberal &lt; Liberal &lt; Moderate &lt; Conservative &lt; Very conservative -Numerical: Ordered + <strong>equidistant</strong></li>
+<li class="fragment">Liberal &lt; Moderate &lt; Conservative</li>
+</ul></li>
+<li class="fragment">Numerical: Ordered + <strong>equidistant</strong>
+<ul>
 <li class="fragment">Age, GDP, number of casualties</li>
 </ul></li>
 </ul>
+</section>
+<section id="political-regimes" class="slide level2 center">
+<h2>Political Regimes</h2>
+<h3 id="interactive-map">Interactive Map</h3>
+<iframe src="https://ourworldindata.org/grapher/political-regime?tab=map" loading="lazy" style="width:100%; height:600px; border:0;" allow="web-share; clipboard-write">
+</iframe>
 </section>
 <section id="practice" class="slide level2 center">
 <h2>Practice</h2>
@@ -211,31 +282,102 @@ Olgahan Çat (olgahan@brown.edu)
 <li class="fragment">3: Liberal democracy – Free and fair elections guaranteed</li>
 </ul>
 </section>
-<section id="political-regimes" class="slide level2 center">
-<h2>Political Regimes</h2>
-<h3 id="interactive-map">Interactive Map</h3>
-<iframe src="https://ourworldindata.org/grapher/political-regime?tab=map" loading="lazy" style="width:100%; height:600px; border:0;" allow="web-share; clipboard-write">
-</iframe>
-</section>
 <section id="descriptive-statistics" class="slide level2 center">
 <h2>Descriptive Statistics</h2>
 <h3 id="summarizing-patterns-categorical-data">Summarizing Patterns: Categorical data</h3>
-<div class="columns">
-<div class="column" style="width:60%;">
 <ul>
 <li class="fragment">Counts / frequencies: How many observations fall in each category.</li>
 <li class="fragment">Percentages / proportions: Useful to compare groups.</li>
-<li class="fragment">Mode: The most common category</li>
+<li class="fragment">Mode: The most common category.</li>
 </ul>
-</div><div class="column center" style="width:40%;">
-<p><img data-src="sm.png" style="width:40.0%"> <em>Source: qatarcars</em></p>
-</div></div>
+</section>
+<section id="descriptive-statistics-categorical-variables" class="slide level2 center">
+<h2>Descriptive Statistics: Categorical variables</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table caption-top" style="font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>Top Categories for Qatar Cars Variables</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Variable</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Category</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Count</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Percent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td rowspan="4" style="text-align: left; vertical-align: top !important;">make</td>
+<td style="text-align: left;">Toyota</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">10.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BMW</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Kia</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mercedes</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5.1</td>
+</tr>
+<tr class="odd">
+<td rowspan="4" style="text-align: left; vertical-align: top !important;">origin</td>
+<td style="text-align: left;">Japan</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">27.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Germany</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">20.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PR China</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">16.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">UK</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">11.1</td>
+</tr>
+<tr class="odd">
+<td rowspan="4" style="text-align: left; vertical-align: top !important;">type</td>
+<td style="text-align: left;">SUV</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">49.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sedan</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">30.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Coupe</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">13.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hatchback</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7.1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><em>Data source: https://github.com/profmusgrave/qatarcars</em></p>
 </section>
 <section id="descriptive-statistics-1" class="slide level2 center">
 <h2>Descriptive Statistics</h2>
 <h3 id="summarizing-patterns-numerical-data">Summarizing Patterns: Numerical data</h3>
-<div class="columns">
-<div class="column" style="width:60%;">
 <ul>
 <li class="fragment">Measures of central tendency:
 <ul>
@@ -249,101 +391,693 @@ Olgahan Çat (olgahan@brown.edu)
 <li class="fragment">Standard deviation</li>
 </ul></li>
 </ul>
-</div><div class="column center" style="width:40%;">
-<p><img data-src="sm2.png" style="width:40.0%"> <em>Source: qatarcars</em></p>
-</div></div>
 </section>
-<section id="predictive-reasoning" class="slide level2 center">
-<h2>Predictive Reasoning</h2>
-<h3 id="can-we-forecast-outcomes">Can we forecast outcomes?</h3>
-<div class="columns">
-<div class="column" style="width:60%;">
+<section id="descriptive-statistics-numerical-variables" class="slide level2 center">
+<h2>Descriptive Statistics: Numerical variables</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table caption-top" style="font-size: 20px; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>Descriptive Statistics for Qatar Cars Variables</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Variable</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">mean</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">sd</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">min</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">max</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">length</td>
+<td style="text-align: left;">4.71</td>
+<td style="text-align: left;">0.30</td>
+<td style="text-align: left;">3.80</td>
+<td style="text-align: left;">5.47</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">width</td>
+<td style="text-align: left;">1.93</td>
+<td style="text-align: left;">0.30</td>
+<td style="text-align: left;">1.67</td>
+<td style="text-align: left;">4.63</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">height</td>
+<td style="text-align: left;">1.58</td>
+<td style="text-align: left;">0.20</td>
+<td style="text-align: left;">1.12</td>
+<td style="text-align: left;">2.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">seating</td>
+<td style="text-align: left;">5.04</td>
+<td style="text-align: left;">1.22</td>
+<td style="text-align: left;">2.00</td>
+<td style="text-align: left;">8.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">trunk</td>
+<td style="text-align: left;">449.80</td>
+<td style="text-align: left;">268.31</td>
+<td style="text-align: left;">0.00</td>
+<td style="text-align: left;">1233.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">economy</td>
+<td style="text-align: left;">8.91</td>
+<td style="text-align: left;">3.63</td>
+<td style="text-align: left;">1.20</td>
+<td style="text-align: left;">22.50</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">horsepower</td>
+<td style="text-align: left;">329.34</td>
+<td style="text-align: left;">294.09</td>
+<td style="text-align: left;">76.00</td>
+<td style="text-align: left;">1973.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">price</td>
+<td style="text-align: left;">840909.91</td>
+<td style="text-align: left;">3632523.41</td>
+<td style="text-align: left;">37400.00</td>
+<td style="text-align: left;">33000000.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">mass</td>
+<td style="text-align: left;">1807.33</td>
+<td style="text-align: left;">462.98</td>
+<td style="text-align: left;">945.00</td>
+<td style="text-align: left;">2746.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">performance</td>
+<td style="text-align: left;">6.81</td>
+<td style="text-align: left;">2.57</td>
+<td style="text-align: left;">2.40</td>
+<td style="text-align: left;">14.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><em>Data source: https://github.com/profmusgrave/qatarcars</em></p>
+</section>
+<section id="predictive-analysis" class="slide level2 center">
+<h2>Predictive Analysis</h2>
+<h3 id="can-we-forecastpredict-outcomes">Can we forecast/predict outcomes?</h3>
 <ul>
-<li class="fragment">Use patterns to <strong>predict an outcome</strong></li>
+<li class="fragment">Use patterns to <strong>predict an outcome</strong>.</li>
 <li class="fragment">Example: <strong>Next election</strong>, would we expect a high or low turnout at a <strong>university town?</strong></li>
+</ul>
+</section>
+<section id="toy-example" class="slide level2 center">
+<h2>Toy example</h2>
+<h3 id="new-university-in-town">New university in town</h3>
+<ul>
+<li class="fragment">Suppose turnout differs by age based on past data:
+<ul>
+<li class="fragment">Young voters (18–25): <b>40%</b> turnout</li>
+</ul></li>
+<li class="fragment">Everyone else: <b>65%</b> turnout</li>
+<li class="fragment">We can roughly predict the turnout based on share of young voters in town
+<div style="width:100%; font-size:70%;">
+<!-- <p> -->
+<!--   Suppose turnout differs by age: -->
+<!--   <br> -->
+<!--   • Young voters (18–25): <b>40%</b> turnout   -->
+<!--   <br> -->
+<!--   • Everyone else: <b>65%</b> turnout -->
+<!-- </p> -->
+<p><label for="youngShare"> Share of young voters in town: <b><span id="youngLabel">20</span>%</b> </label></p>
+<p><input type="range" id="youngShare" min="0" max="60" value="20" step="5" style="width:100%;"></p>
+<p id="prediction" style="margin-top:8px;">
+</p>
+<p style="color:gray; font-size:85%;">
+<!-- This is a prediction based on composition — not a causal effect. -->
+</p>
+</div></li>
+</ul>
+<script>
+  const slider = document.getElementById("youngShare");
+  const label = document.getElementById("youngLabel");
+  const output = document.getElementById("prediction");
+
+  function update() {
+    const young = slider.value / 100;
+    const turnout = young * 40 + (1 - young) * 65;
+
+    label.innerText = slider.value;
+    output.innerText =
+      "Predicted turnout = " +
+      slider.value + "% × 40% + " +
+      (100 - slider.value) + "% × 65% = " +
+      turnout.toFixed(1) + "%";
+  }
+
+  slider.addEventListener("input", update);
+  update();
+</script>
+</section>
+<section id="predictive-analysis-1" class="slide level2 center">
+<h2>Predictive Analysis</h2>
+<h3 id="section"></h3>
+<ul>
+<li class="fragment">Widely used in <strong>private sector:</strong> credit scoring, fraud detection, demand forecasting</li>
+<li class="fragment">Also common in <strong>public policy:</strong> forecasting crime, turnout, ER visits</li>
+<li class="fragment">Uses many variables with machine learning models</li>
 <li class="fragment">What if we want to know <span style="color:#8B0000;"><strong>why?</strong></span></li>
 </ul>
-</div><div class="column center" style="width:40%;">
-<p><img data-src="s4.png" style="width:100.0%"></p>
-</div></div>
 </section>
 <section id="causal-inference" class="slide level2 center">
 <h2>Causal Inference</h2>
-<h3 id="does-x-cause-y">Does X cause Y?</h3>
+<h3 id="going-beyond-associations">Going beyond associations</h3>
 <div class="columns">
 <div class="column" style="width:60%;">
 <ul>
-<li class="fragment">X: Independent variable</li>
-<li class="fragment">Y: Dependent variable</li>
-<li class="fragment">Causal claims are everywhere</li>
 <li class="fragment">The ultimate question:
 <ul>
-<li class="fragment"><strong>does changing X change Y</strong></li>
+<li class="fragment"><strong>does changing X change Y?</strong></li>
 </ul></li>
+<li class="fragment">X: Independent variable</li>
+<li class="fragment">Y: Dependent variable <!-- - Causal claims are everywhere --></li>
 </ul>
 </div><div class="column" style="width:40%;">
 <p><img data-src="s5.png" style="width:80.0%"></p>
 </div></div>
 </section>
-<section id="do-democracy-promotion-programs-reduce-protests" class="slide level2 center">
-<h2>Do democracy promotion programs reduce protests?</h2>
-<p><img data-src="s6.png" style="width:40%; max-height:200px; display:block; margin:auto;"></p>
+<section id="a-toy-example" class="slide level2 center">
+<h2>A Toy Example</h2>
+<h3 id="foreign-aid-and-political-stability">Foreign Aid and Political Stability</h3>
 <ul>
-<li class="fragment">Average protests if received program: (2+1+3)/3 = 2 → <span style="color:#000080;"><strong>fewer protests</strong></span></li>
-<li class="fragment">Average protests if no program: (5+4+6)/3 = 5 → <span style="color:#8B0000;"><strong>more protests</strong></span></li>
-<li class="fragment">what if we knew <strong>both worlds?</strong></li>
+<li class="fragment"><strong>Question:</strong>
+<ul>
+<li class="fragment">Does foreign aid reduce political unrest?</li>
+</ul></li>
+<li class="fragment">Outcome: <strong>number of anti-government protests</strong></li>
 </ul>
+</section>
+<section id="a-naive-comparison" class="slide level2 center">
+<h2>A Naive Comparison</h2>
+<h3 id="treated-vs.-untreated-countries">Treated vs.&nbsp;Untreated Countries</h3>
+<div style="width:auto; min-width:600px;">
+<p><button id="slide1_reveal" style="font-size:0%; margin-bottom:5px;">🔁 Reveal counterfactuals</button></p>
+<table border="1" cellpadding="2" cellspacing="0" style="font-size:55%; border-collapse: collapse; table-layout: fixed; width:100%;">
+<thead>
+<tr>
+<th style="padding:2px; width:60px;">
+Country
+</th>
+<th style="padding:2px; width:80px;">
+Aid status
+</th>
+<th style="padding:2px; width:80px;">
+Observed protests
+</th>
+<th id="slide1_cf_aid_header" style="color:#5b7c99; padding:2px; width:90px; visibility:hidden;">
+Protests if received aid
+</th>
+<th id="slide1_cf_noaid_header" style="color:darkred; padding:2px; width:90px; visibility:hidden;">
+Protests if no aid
+</th>
+<th id="slide1_eff_header" style="color:darkgreen; padding:2px; width:90px; visibility:hidden;">
+Actual effect of aid
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+A
+</td>
+<td id="slide1_A_status">
+</td>
+<td id="slide1_A_obs">
+</td>
+<td id="slide1_A_withAid" style="visibility:hidden">
+</td>
+<td id="slide1_A_noAid" style="visibility:hidden">
+</td>
+<td id="slide1_A_eff" style="visibility:hidden">
+</td>
+</tr>
+<tr>
+<td>
+B
+</td>
+<td id="slide1_B_status">
+</td>
+<td id="slide1_B_obs">
+</td>
+<td id="slide1_B_withAid" style="visibility:hidden">
+</td>
+<td id="slide1_B_noAid" style="visibility:hidden">
+</td>
+<td id="slide1_B_eff" style="visibility:hidden">
+</td>
+</tr>
+<tr>
+<td>
+C
+</td>
+<td id="slide1_C_status">
+</td>
+<td id="slide1_C_obs">
+</td>
+<td id="slide1_C_withAid" style="visibility:hidden">
+</td>
+<td id="slide1_C_noAid" style="visibility:hidden">
+</td>
+<td id="slide1_C_eff" style="visibility:hidden">
+</td>
+</tr>
+<tr>
+<td>
+D
+</td>
+<td id="slide1_D_status">
+</td>
+<td id="slide1_D_obs">
+</td>
+<td id="slide1_D_withAid" style="visibility:hidden">
+</td>
+<td id="slide1_D_noAid" style="visibility:hidden">
+</td>
+<td id="slide1_D_eff" style="visibility:hidden">
+</td>
+</tr>
+<tr>
+<td>
+E
+</td>
+<td id="slide1_E_status">
+</td>
+<td id="slide1_E_obs">
+</td>
+<td id="slide1_E_withAid" style="visibility:hidden">
+</td>
+<td id="slide1_E_noAid" style="visibility:hidden">
+</td>
+<td id="slide1_E_eff" style="visibility:hidden">
+</td>
+</tr>
+<tr>
+<td>
+F
+</td>
+<td id="slide1_F_status">
+</td>
+<td id="slide1_F_obs">
+</td>
+<td id="slide1_F_withAid" style="visibility:hidden">
+</td>
+<td id="slide1_F_noAid" style="visibility:hidden">
+</td>
+<td id="slide1_F_eff" style="visibility:hidden">
+</td>
+</tr>
+</tbody>
+</table>
+<p id="slide1_naive" style="font-size:75%; margin-top:5px;">
+</p>
+<p id="slide1_true" style="font-size:75%; margin-top:2px;">
+</p>
+</div>
+<script>
+  const slide1_data = {
+    A: {observed: 5, aidStatus: "Received Aid", withAid: 5, noAid: 7},
+    B: {observed: 4, aidStatus: "No Aid",       withAid: 3, noAid: 4},
+    C: {observed: 3, aidStatus: "No Aid",       withAid: 0, noAid: 3},
+    D: {observed: 6, aidStatus: "Received Aid", withAid: 6, noAid: 8},
+    E: {observed: 4, aidStatus: "No Aid",       withAid: 1, noAid: 4},
+    F: {observed: 7, aidStatus: "Received Aid", withAid: 7, noAid: 8}
+  };
+
+  let slide1_revealed = false;
+
+  function slide1_update() {
+    let naiveAidSum = 0, naiveAidCount = 0;
+    let naiveNoAidSum = 0, naiveNoAidCount = 0;
+    let trueSum = 0;
+    const countries = ["A","B","C","D","E","F"];
+
+    countries.forEach(c => {
+      const row = slide1_data[c];
+      const obsEl = document.getElementById("slide1_"+c+"_obs");
+      const statusEl = document.getElementById("slide1_"+c+"_status");
+
+      // Aid status color
+      statusEl.innerText = row.aidStatus;
+      statusEl.style.color = row.aidStatus==="Received Aid" ? "darkgreen" : "darkred";
+
+      // Observed value always matches realized potential outcome
+      obsEl.innerText = row.observed;
+      obsEl.style.color = "black";
+
+      // For naive diff calculation
+      if(row.aidStatus === "Received Aid"){
+        naiveAidSum += row.observed; naiveAidCount++;
+      } else {
+        naiveNoAidSum += row.observed; naiveNoAidCount++;
+      }
+
+      if(slide1_revealed){
+        ["withAid","noAid","eff"].forEach(id=>{
+          document.getElementById("slide1_"+c+"_"+id).style.visibility = "visible";
+          document.getElementById("slide1_"+c+"_"+id).style.color = "black";
+        });
+        ["slide1_cf_aid_header","slide1_cf_noaid_header","slide1_eff_header"].forEach(id=>{
+          document.getElementById(id).style.visibility = "visible";
+        });
+
+        // Only show potential outcome if different from observed
+        document.getElementById("slide1_"+c+"_withAid").innerText = row.withAid !== row.observed ? row.withAid : "";
+        document.getElementById("slide1_"+c+"_noAid").innerText = row.noAid !== row.observed ? row.noAid : "";
+
+        document.getElementById("slide1_"+c+"_eff").innerText = row.withAid - row.noAid;
+
+        trueSum += row.withAid - row.noAid;
+      } else {
+        ["withAid","noAid","eff"].forEach(id=>{
+          document.getElementById("slide1_"+c+"_"+id).style.visibility = "hidden";
+        });
+        ["slide1_cf_aid_header","slide1_cf_noaid_header","slide1_eff_header"].forEach(id=>{
+          document.getElementById(id).style.visibility = "hidden";
+        });
+      }
+    });
+
+    const naiveDiff = (naiveAidSum/naiveAidCount - naiveNoAidSum/naiveNoAidCount).toFixed(2);
+    document.getElementById("slide1_naive").innerText = "Average protest when received aid - Average protest when no aid) = (5+6+7)/3 - (3+4+4)/3 = " + naiveDiff;
+    document.getElementById("slide1_true").innerText = slide1_revealed ? "True average effect of aid = (-2-1-3-2-3-1)/6 = " + (trueSum/6).toFixed(2) : "";
+  }
+
+  document.getElementById("slide1_reveal").addEventListener("click", ()=>{
+    slide1_revealed = !slide1_revealed;
+    document.getElementById("slide1_reveal").innerText = slide1_revealed ? "🔒 Hide counterfactuals" : "🔁 Reveal counterfactuals";
+    slide1_update();
+  });
+
+  slide1_update();
+</script>
+</section>
+<section id="a-naive-comparison-1" class="slide level2 center">
+<h2>A Naive Comparison</h2>
+<h3 id="treated-vs.-untreated-countries-1">Treated vs.&nbsp;Untreated Countries</h3>
+<ul>
+<li class="fragment"><strong>Naive conclusion:</strong>
+<ul>
+<li class="fragment">Foreign aid increases protests</li>
+</ul></li>
+<li class="fragment">⚠️ But should we believe this?</li>
+</ul>
+</section>
+<section id="what-might-be-going-wrong" class="slide level2 center">
+<h2>What Might Be Going Wrong?</h2>
+<h3 id="aid-is-not-random">Aid Is Not Random</h3>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li class="fragment"><p>Foreign aid might be sent to:</p>
+<ul>
+<li class="fragment">Politically unstable countries</li>
+<li class="fragment">Which introduces <strong>selection bias</strong></li>
+</ul></li>
+<li class="fragment"><p>These countries would likely have <strong>more protests anyway</strong></p></li>
+<li class="fragment"><p>We are comparing <strong>different kinds of countries</strong>.</p></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="dag.png" style="width:100.0%"></p>
+</div></div>
+<!-- ## Selection Bias -->
+<!-- ### When Comparison Is Misleading -->
+<!-- - Countries receiving aid are different *before* aid -->
+<!-- - Instability affects: -->
+<!--   - Whether aid is given -->
+<!--   - How many protests occur -->
+<!-- - So the difference we see may **not be caused by aid**. -->
+<!-- ## The Core Problem -->
+<!-- ### We Don't See Both Worlds -->
+<!-- For any single country: -->
+<!-- - We see what happens **with aid** -->
+<!-- - Or what happens **without aid** -->
+<!-- But not both. -->
+<!-- One outcome is **missing**. -->
+<!-- --- -->
+</section>
+<section id="counterfactual-thinking" class="slide level2 center">
+<h2>Counterfactual Thinking</h2>
+<h3 id="the-missing-comparison">The Missing Comparison</h3>
+<ul>
+<li class="fragment">The <strong>counterfactual</strong> asks:
+<ul>
+<li class="fragment"><em>What would have happened <strong>if X did not change/did not take place?</strong></em></li>
+</ul></li>
+<li class="fragment">In this example:
+<ul>
+<li class="fragment">A country received aid</li>
+<li class="fragment">Counterfactual: <strong><em>What if it had not?</em></strong></li>
+</ul></li>
+</ul>
+<!-- - Causal inference is about reasoning with these missing outcomes. -->
 </section>
 <section id="counterfactuals" class="slide level2 center">
 <h2>Counterfactuals</h2>
-<h3 id="what-would-y-be-if-x-did-not-changetake-place">What would Y be if X did not change/take place?</h3>
+<h3 id="hypothetical-research-questions">Hypothetical research questions</h3>
+<!-- - If Trump did not win 2024 elections, would Maduro still be in power?  -->
 <ul>
-<li class="fragment">If Trump did not win 2024 elections, would Maduro still be in power?</li>
-<li class="fragment">If it wasn’t for Qatar, would <strong>Messi ever win the World Cup?</strong></li>
-<li class="fragment"></li>
-<li class="fragment"></li>
+<li class="fragment">Effect of civil war on a country’s economic growth</li>
+<li class="fragment">Whether mailers affect voting turnout or not <!-- - How EU ascension impacts a country’s trade imbalance --></li>
+<li class="fragment">If it wasn’t for Qatar, would <strong>Messi win the World Cup?</strong></li>
 </ul>
 </section>
-<section id="potential-outcomes-counterfactuals" class="slide level2 center">
-<h2>Potential Outcomes &amp; Counterfactuals</h2>
-<p><img data-src="s7.png" style="width:50%; max-height:200px; display:block; margin:auto;"></p>
+<section id="interactive-intuition" class="slide level2 center">
+<h2>Interactive Intuition</h2>
+<h3 id="toggle-between-worlds">Toggle Between Worlds</h3>
 <ul>
-<li class="fragment">Going back to the example, <strong>we do not know the counterfactuals</strong>.</li>
-<li class="fragment">But <strong>let’s assume</strong> we do know them…</li>
-</ul>
-</section>
-<section id="potential-outcomes-counterfactuals-1" class="slide level2 center">
-<h2>Potential Outcomes &amp; Counterfactuals</h2>
-<p><img data-src="s8.png" style="width:50%; max-height:200px; display:block; margin:auto;"></p>
+<li class="fragment">Imagine switching between:
 <ul>
-<li class="fragment">Average effect for countries that received program: (2+1+0)/3 = 1</li>
-<li class="fragment">Average effect for countries that did not receive program: (1+1+1)/3 = 1</li>
-</ul>
-</section>
-<section id="causal-inference-1" class="slide level2 center">
-<h2>Causal Inference</h2>
-<h3 id="does-a-change-in-x-cause-a-change-in-y">Does a change in X cause a change in Y?</h3>
-<ul>
-<li class="fragment">Patterns alone are not enough
-<ul>
-<li class="fragment">Observations that are treated and not treated tend to be <strong>systematically different:</strong> <span style="color:#8B0000;"><strong>Selection bias</strong></span></li>
+<li class="fragment">A world <strong>with aid</strong></li>
+<li class="fragment">A world <strong>without aid</strong></li>
 </ul></li>
-<li class="fragment">Without counterfactuals, it is difficult to make causal claims</li>
+<li class="fragment">This is the core idea behind causal inference.</li>
 </ul>
 </section>
-<section id="section" class="slide level2 center">
-<h2></h2>
-<div style="display:flex; justify-content:center; align-items:center; height:100%;">
-<h1 style="font-size:3em; text-align:center;">
-<span style="color:#000080;"><strong>How do we detect counterfactuals?</strong></span>
-</h1>
+<section id="interactive-intuition-1" class="slide level2 center">
+<h2>Interactive Intuition</h2>
+<h3 id="toggle-between-worlds-1">Toggle Between Worlds</h3>
+<div style="width:auto; min-width:600px;">
+<p><button id="slide2_reveal" style="font-size:50%; margin-bottom:5px;">🔁 Reveal counterfactuals</button></p>
+<table border="1" cellpadding="2" cellspacing="0" style="font-size:55%; border-collapse: collapse; table-layout: fixed; width:100%;">
+<thead>
+<tr>
+<th style="padding:2px; width:60px;">
+Country
+</th>
+<th style="padding:2px; width:80px;">
+Aid status
+</th>
+<th style="padding:2px; width:80px;">
+Observed protests
+</th>
+<th id="slide2_cf_aid_header" style="color:#5b7c99; padding:2px; width:90px; visibility:hidden;">
+Protests if received aid
+</th>
+<th id="slide2_cf_noaid_header" style="color:darkred; padding:2px; width:90px; visibility:hidden;">
+Protests if no aid
+</th>
+<th id="slide2_eff_header" style="color:darkgreen; padding:2px; width:90px; visibility:hidden;">
+Actual effect of aid
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+A
+</td>
+<td id="slide2_A_status">
+</td>
+<td id="slide2_A_obs">
+</td>
+<td id="slide2_A_withAid" style="visibility:hidden">
+</td>
+<td id="slide2_A_noAid" style="visibility:hidden">
+</td>
+<td id="slide2_A_eff" style="visibility:hidden">
+</td>
+</tr>
+<tr>
+<td>
+B
+</td>
+<td id="slide2_B_status">
+</td>
+<td id="slide2_B_obs">
+</td>
+<td id="slide2_B_withAid" style="visibility:hidden">
+</td>
+<td id="slide2_B_noAid" style="visibility:hidden">
+</td>
+<td id="slide2_B_eff" style="visibility:hidden">
+</td>
+</tr>
+<tr>
+<td>
+C
+</td>
+<td id="slide2_C_status">
+</td>
+<td id="slide2_C_obs">
+</td>
+<td id="slide2_C_withAid" style="visibility:hidden">
+</td>
+<td id="slide2_C_noAid" style="visibility:hidden">
+</td>
+<td id="slide2_C_eff" style="visibility:hidden">
+</td>
+</tr>
+<tr>
+<td>
+D
+</td>
+<td id="slide2_D_status">
+</td>
+<td id="slide2_D_obs">
+</td>
+<td id="slide2_D_withAid" style="visibility:hidden">
+</td>
+<td id="slide2_D_noAid" style="visibility:hidden">
+</td>
+<td id="slide2_D_eff" style="visibility:hidden">
+</td>
+</tr>
+<tr>
+<td>
+E
+</td>
+<td id="slide2_E_status">
+</td>
+<td id="slide2_E_obs">
+</td>
+<td id="slide2_E_withAid" style="visibility:hidden">
+</td>
+<td id="slide2_E_noAid" style="visibility:hidden">
+</td>
+<td id="slide2_E_eff" style="visibility:hidden">
+</td>
+</tr>
+<tr>
+<td>
+F
+</td>
+<td id="slide2_F_status">
+</td>
+<td id="slide2_F_obs">
+</td>
+<td id="slide2_F_withAid" style="visibility:hidden">
+</td>
+<td id="slide2_F_noAid" style="visibility:hidden">
+</td>
+<td id="slide2_F_eff" style="visibility:hidden">
+</td>
+</tr>
+</tbody>
+</table>
+<p id="slide2_naive" style="font-size:75%; margin-top:5px;">
+</p>
+<p id="slide2_true" style="font-size:75%; margin-top:2px;">
+</p>
 </div>
+<script>
+  const slide2_data = {
+    A: {observed: 5, aidStatus: "Received Aid", withAid: 5, noAid: 7},
+    B: {observed: 4, aidStatus: "No Aid",       withAid: 3, noAid: 4},
+    C: {observed: 3, aidStatus: "No Aid",       withAid: 0, noAid: 3},
+    D: {observed: 6, aidStatus: "Received Aid", withAid: 6, noAid: 8},
+    E: {observed: 4, aidStatus: "No Aid",       withAid: 1, noAid: 4},
+    F: {observed: 7, aidStatus: "Received Aid", withAid: 7, noAid: 8}
+  };
+
+  let slide2_revealed = false;
+
+  function slide2_update() {
+    let naiveAidSum = 0, naiveAidCount = 0;
+    let naiveNoAidSum = 0, naiveNoAidCount = 0;
+    let trueSum = 0;
+    const countries = ["A","B","C","D","E","F"];
+
+    countries.forEach(c => {
+      const row = slide2_data[c];
+      const obsEl = document.getElementById("slide2_"+c+"_obs");
+      const statusEl = document.getElementById("slide2_"+c+"_status");
+
+      // Aid status color
+      statusEl.innerText = row.aidStatus;
+      statusEl.style.color = row.aidStatus==="Received Aid" ? "darkgreen" : "darkred";
+
+      // Observed value always matches realized potential outcome
+      obsEl.innerText = row.observed;
+      obsEl.style.color = "black";
+
+      // For naive diff calculation
+      if(row.aidStatus === "Received Aid"){
+        naiveAidSum += row.observed; naiveAidCount++;
+      } else {
+        naiveNoAidSum += row.observed; naiveNoAidCount++;
+      }
+
+      if(slide2_revealed){
+        ["withAid","noAid","eff"].forEach(id=>{
+          document.getElementById("slide2_"+c+"_"+id).style.visibility = "visible";
+          document.getElementById("slide2_"+c+"_"+id).style.color = "black";
+        });
+        ["slide2_cf_aid_header","slide2_cf_noaid_header","slide2_eff_header"].forEach(id=>{
+          document.getElementById(id).style.visibility = "visible";
+        });
+
+        // Only show potential outcome if different from observed
+        document.getElementById("slide2_"+c+"_withAid").innerText = row.withAid !== row.observed ? row.withAid : "";
+        document.getElementById("slide2_"+c+"_noAid").innerText = row.noAid !== row.observed ? row.noAid : "";
+
+        document.getElementById("slide2_"+c+"_eff").innerText = row.withAid - row.noAid;
+
+        trueSum += row.withAid - row.noAid;
+      } else {
+        ["withAid","noAid","eff"].forEach(id=>{
+          document.getElementById("slide2_"+c+"_"+id).style.visibility = "hidden";
+        });
+        ["slide2_cf_aid_header","slide2_cf_noaid_header","slide2_eff_header"].forEach(id=>{
+          document.getElementById(id).style.visibility = "hidden";
+        });
+      }
+    });
+
+    const naiveDiff = (naiveAidSum/naiveAidCount - naiveNoAidSum/naiveNoAidCount).toFixed(2);
+    document.getElementById("slide2_naive").innerText = "Naive difference (avg aid - avg no aid) = (5+6+7)/3 - (3+4+4)/3 = " + naiveDiff;
+    document.getElementById("slide2_true").innerText = slide2_revealed ? "True average effect of aid = (-2-1-3-2-3-1)/6 = " + (trueSum/6).toFixed(2) : "";
+  }
+
+  document.getElementById("slide2_reveal").addEventListener("click", ()=>{
+    slide2_revealed = !slide2_revealed;
+    document.getElementById("slide2_reveal").innerText = slide2_revealed ? "🔒 Hide counterfactuals" : "🔁 Reveal counterfactuals";
+    slide2_update();
+  });
+
+  slide2_update();
+</script>
+<!-- ## Causal Inference -->
+<!-- ### Does a change in X cause a change in Y? -->
+<!-- - Patterns alone are not enough -->
+<!--   - Observations that are treated and not treated tend to be **systematically different:** <span style="color:#8B0000;">**Selection bias**</span>  -->
+<!-- - Without counterfactuals, it is difficult to make causal claims -->
 </section>
 <section id="section-1" class="slide level2 center">
 <h2></h2>
 <div style="display:flex; justify-content:center; align-items:center; height:100%;">
 <h1 style="font-size:3em; text-align:center;">
-<span style="color:#000080;"><strong>Bad news:</strong></span> <span style="color:#8B0000;"><strong>we can’t</strong></span>
+<span style="color:#000080;"><strong>How do we detect counterfactuals?</strong></span>
 </h1>
 </div>
 </section>
@@ -354,21 +1088,29 @@ Olgahan Çat (olgahan@brown.edu)
 <span style="color:#000080;"><strong>Bad news:</strong></span> <span style="color:#8B0000;"><strong>we can’t</strong></span>
 </h1>
 </div>
-<p><strong>Fundamental Problem of Causal Inference: We never observe the counterfactual</strong></p>
 </section>
 <section id="section-3" class="slide level2 center">
 <h2></h2>
 <div style="display:flex; justify-content:center; align-items:center; height:100%;">
 <h1 style="font-size:3em; text-align:center;">
-<span style="color:#000080;"><strong>Good news:</strong></span> <span style="color:#8B0000;"><strong>we can predict them</strong></span>
+<span style="color:#000080;"><strong>Bad news:</strong></span> <span style="color:#8B0000;"><strong>we can’t</strong></span>
 </h1>
 </div>
+<p><strong>Fundamental Problem of Causal Inference: We never observe the counterfactual</strong></p>
 </section>
 <section id="section-4" class="slide level2 center">
 <h2></h2>
 <div style="display:flex; justify-content:center; align-items:center; height:100%;">
 <h1 style="font-size:3em; text-align:center;">
-<span style="color:#000080;"><strong>Good news:</strong></span> <span style="color:#8B0000;"><strong>we can predict them</strong></span>
+<span style="color:#000080;"><strong>Good news:</strong></span> <span style="color:#8B0000;"><strong>we can impute them</strong></span>
+</h1>
+</div>
+</section>
+<section id="section-5" class="slide level2 center">
+<h2></h2>
+<div style="display:flex; justify-content:center; align-items:center; height:100%;">
+<h1 style="font-size:3em; text-align:center;">
+<span style="color:#000080;"><strong>Good news:</strong></span> <span style="color:#8B0000;"><strong>we can impute them</strong></span>
 </h1>
 </div>
 <p><strong>Causal inference = imputing the counterfactual and estimating the effect</strong></p>
@@ -378,7 +1120,10 @@ Olgahan Çat (olgahan@brown.edu)
 <ul>
 <li class="fragment">Qualitatively
 <ul>
-<li class="fragment">Case studies</li>
+<li class="fragment">Case studies and process tracing
+<ul>
+<li class="fragment">Comparing plausible alternative explanations within cases</li>
+</ul></li>
 </ul></li>
 <li class="fragment">Quantitatively
 <ul>
@@ -389,15 +1134,15 @@ Olgahan Çat (olgahan@brown.edu)
 </section>
 <section id="experiments" class="slide level2 center">
 <h2>Experiments</h2>
-<h3 id="gold-standard">Gold standard</h3>
+<h3 id="gold-standard">Gold standard?</h3>
 <ul>
 <li class="fragment"><strong>Random assignment</strong> ensures no selection bias</li>
-<li class="fragment">Isolate the effect of X on Y</li>
+<li class="fragment">Some call experiments as gold standard - we will come back to it in a minute</li>
 </ul>
 </section>
 <section id="lets-think-about-this-intuitively" class="slide level2 center">
 <h2>Let’s think about this intuitively</h2>
-<h3 id="an-example-from-a-field-experiment-in-pakistan-cheema-et-al.-2022">An example from a field experiment in Pakistan (Cheema et al.&nbsp;2022)</h3>
+<h3 id="an-example-from-a-field-experiment-in-pakistan-cheema-et-al.-2022-apsr">An example from a field experiment in Pakistan (Cheema et al.&nbsp;2022, APSR)</h3>
 <ul>
 <li class="fragment">How can we close persistent gender gaps in political participation?
 <ul>
@@ -407,98 +1152,87 @@ Olgahan Çat (olgahan@brown.edu)
 <li class="fragment"><strong>Targeting male household members</strong> -&gt; increase in women’s turnout</li>
 </ul>
 </section>
-<section id="lets-think-about-this-intuitively-1" class="slide level2 center">
-<h2>Let’s think about this intuitively</h2>
-<h3 id="an-example-from-a-field-experiment-in-pakistan-cheema-et-al.-2022-1">An example from a field experiment in Pakistan (Cheema et al.&nbsp;2022)</h3>
-<p><img data-src="s9.png" style="width:50%; max-height:300px; display:block; margin:auto;"></p>
+<section id="an-example" class="slide level2 center">
+<h2>An example</h2>
+<p><img data-src="s9.png" style="width:40%; max-height:300px; display:block; margin:auto;"></p>
 <p><em>Figure: A random sample of households in Pakistan</em></p>
+<!-- ## Let's think about this intuitively -->
+<!-- ### An example from a field experiment in Pakistan (Cheema et al. 2022) -->
+<!-- ![](s10.png){style="width:50%; max-height:300px; display:block; margin:auto;"} -->
+<!-- *Figure: Each household has potential outcomes <span style="color:#8B0000;">**treated**</span>  and <span style="color:#000080;">**control**</span> * -->
 </section>
-<section id="lets-think-about-this-intuitively-2" class="slide level2 center">
-<h2>Let’s think about this intuitively</h2>
-<h3 id="an-example-from-a-field-experiment-in-pakistan-cheema-et-al.-2022-2">An example from a field experiment in Pakistan (Cheema et al.&nbsp;2022)</h3>
-<p><img data-src="s10.png" style="width:50%; max-height:300px; display:block; margin:auto;"></p>
-<p><em>Figure: Each household has potential outcomes <span style="color:#8B0000;"><strong>treated</strong></span> and <span style="color:#000080;"><strong>control</strong></span> </em></p>
-</section>
-<section id="lets-think-about-this-intuitively-3" class="slide level2 center">
-<h2>Let’s think about this intuitively</h2>
-<h3 id="an-example-from-a-field-experiment-in-pakistan-cheema-et-al.-2022-3">An example from a field experiment in Pakistan (Cheema et al.&nbsp;2022)</h3>
+<section id="an-example-1" class="slide level2 center">
+<h2>An example</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
 <ul>
 <li class="fragment"><p>When you assign a household to treated, <strong>you are realizing the household’s potential outcome under treatment</strong></p></li>
 <li class="fragment"><p>When you assign a household to control, <strong>you are realizing the household’s potential outcome under control</strong></p></li>
+<li class="fragment"><p>With random assignment, naive comparison <strong>approximates the actual effect.</strong></p></li>
 </ul>
 </div><div class="column center" style="width:40%;">
 <p><img data-src="s11.png" style="width:80.0%"></p>
 </div></div>
-</section>
-<section id="lets-think-about-this-intuitively-4" class="slide level2 center">
-<h2>Let’s think about this intuitively</h2>
-<h3 id="an-example-from-a-field-experiment-in-pakistan-cheema-et-al.-2022-4">An example from a field experiment in Pakistan (Cheema et al.&nbsp;2022)</h3>
-
-<img data-src="s12.png" style="width:40.0%" class="r-stretch"><p><em>Random assignment to treated or control means <strong>we’re drawing a random sample of these potential outcomes</strong></em></p>
-</section>
-<section id="exercise" class="slide level2 center">
-<h2>Exercise</h2>
-<h3 id="an-example-from-a-field-experiment-in-pakistan-cheema-et-al.-2022-5">An example from a field experiment in Pakistan (Cheema et al.&nbsp;2022)</h3>
-
-<img data-src="s13.png" style="width:40.0%" class="r-stretch"></section>
-<section id="exercise-1" class="slide level2 center">
-<h2>Exercise</h2>
-<h3 id="an-example-from-a-field-experiment-in-pakistan-cheema-et-al.-2022-6">An example from a field experiment in Pakistan (Cheema et al.&nbsp;2022)</h3>
-
-<img data-src="s14.png" style="width:40.0%" class="r-stretch"></section>
-<section id="exercise-2" class="slide level2 center">
-<h2>Exercise</h2>
-<h3 id="an-example-from-a-field-experiment-in-pakistan-cheema-et-al.-2022-7">An example from a field experiment in Pakistan (Cheema et al.&nbsp;2022)</h3>
-
-<img data-src="s15.png" style="width:40.0%" class="r-stretch"></section>
-<section id="exercise-3" class="slide level2 center">
-<h2>Exercise</h2>
-<h3 id="an-example-from-a-field-experiment-in-pakistan-cheema-et-al.-2022-8">An example from a field experiment in Pakistan (Cheema et al.&nbsp;2022)</h3>
-
+<!-- ## Let's think about this intuitively -->
+<!-- ### An example from a field experiment in Pakistan (Cheema et al. 2022) -->
+<!-- ![](s12.png){width=40%} -->
+<!-- *Random assignment to treated or control means **we’re drawing a random sample of these potential outcomes*** -->
+<!-- xxxxxxxxxxxx-->
+<!-- ## Exercise -->
+<!-- - Asking male households how much they support women's political participation -->
+<!-- - 1: Not support at all -->
+<!-- - 5: Strongly support -->
+<!-- ## Exercise -->
+<!-- - Let's assume these are the potential outcomes: -->
+<!-- ![](s13.png){width=40%} -->
+<!-- ## Exercise -->
+<!-- - Let's assume these are the potential outcomes: -->
+<!-- ![](s14.png){width=40%} -->
+<!-- ## Exercise -->
+<!-- - With random assignment, we realize the potential outcomes: -->
+<!--   - Some households are realized as **treated** -->
+<!--   - Some households are realized as **control** -->
+<!-- ![](s15.png){width=40%} -->
+<!-- ## Exercise -->
+<!-- - Since we can only realize one outcome, we do not know individual causal effect -->
+<!-- - But we can **estimate the average treatment effect** -->
+<!-- ![](s16.png){width=40%} -->
 <!-- ## Experiments -->
 <!-- ### Limitations -->
 <!-- - Why not run experiments for everything? -->
 <!--   - Practicality  -->
 <!--   - Feasibility -->
 <!--   - Ethical considerations  -->
-<img data-src="s16.png" style="width:40.0%" class="r-stretch"></section>
+</section>
 <section id="experiments-1" class="slide level2 center">
 <h2>Experiments</h2>
 <h3 id="limitations">Limitations</h3>
 <ul>
 <li class="fragment">Why not run experiments for everything?
 <ul>
-<li class="fragment"><strong>Practical constraints</strong>
-<ul>
-<li class="fragment">Cost, time, scale</li>
+<li class="fragment"><strong>Practical constraints and feasibility:</strong> cannot randomly assign many social conditions</li>
+<li class="fragment"><strong>Ethical considerations</strong>: Harm, consent, fairness</li>
 </ul></li>
-<li class="fragment"><strong>Feasibility</strong>
+<li class="fragment">Good policies tend to be <strong>targeted, not random</strong>
 <ul>
-<li class="fragment">Cannot randomly assign many social conditions</li>
-</ul></li>
-<li class="fragment"><strong>Ethical considerations</strong>
-<ul>
-<li class="fragment">Harm, consent, fairness</li>
-</ul></li>
+<li class="fragment">This creates <strong>selection bias</strong></li>
 </ul></li>
 </ul>
 </section>
-<section id="observational-designs" class="slide level2 center">
-<h2>Observational Designs</h2>
-<h3 id="when-we-cannot-run-experiments">When we cannot run experiments</h3>
+<section id="revisiting-our-research-questions" class="slide level2 center">
+<h2>Revisiting our research questions</h2>
+<h3 id="can-we-use-experiments">Can we use experiments?</h3>
+<!-- - If Trump did not win 2024 elections, would Maduro still be in power?  -->
 <ul>
-<li class="fragment">Many social questions <strong>cannot be randomized</strong>
-<ul>
-<li class="fragment">Democracy, migration, welfare, education</li>
-</ul></li>
-<li class="fragment">Policies are <strong>not supposed to be not assigned at random</strong>
-<ul>
-<li class="fragment">Welfare is not given to the rich</li>
-</ul></li>
-<li class="fragment">This creates <strong>selection bias</strong></li>
+<li class="fragment"><p>Effect of civil war on a country’s economic growth</p></li>
+<li class="fragment"><p>Whether mailers affect voting turnout or not <!-- - How EU ascension impacts a country’s trade imbalance --></p></li>
+<li class="fragment"><p>If it wasn’t for Qatar, would <strong>Messi win the World Cup?</strong></p></li>
+<li class="fragment"><p>Of the hypothetical research questions above (civil war, mailers, and World Cup), <strong>only one (mailer) is amenable to randomization.</strong></p></li>
 </ul>
+<!-- ## Observational Designs -->
+<!-- ### When we cannot run experiments -->
+<!-- - Many social questions **cannot be randomized** -->
+<!--   - Democracy, migration, political violence -->
 <!-- ## Observational designs -->
 <!-- ### When we can not run experiments -->
 <!-- - Many social questions can not be randomized -->
@@ -527,7 +1261,7 @@ Olgahan Çat (olgahan@brown.edu)
 <li class="fragment"><p><strong>Idea:</strong> Compare units that are <strong>similar in important ways</strong>, except for whether they received the treatment <!-- - This helps reduce unfair comparisons --></p></li>
 <li class="fragment"><p><strong>Example:</strong> Do UN peacekeeping missions reduce civilian deaths?</p>
 <ul>
-<li class="fragment">Problem: Peacekeepers are sent to more violent conflicts</li>
+<li class="fragment">Problem: Peacekeepers might be sent to more violent conflicts</li>
 <li class="fragment">Solution: Compare conflicts with <strong>similar violence levels</strong>
 <ul>
 <li class="fragment">Some with peacekeepers | some without</li>
@@ -539,13 +1273,18 @@ Olgahan Çat (olgahan@brown.edu)
 <h2>Discontinuity Designs</h2>
 <h3 id="comparing-units-near-a-cutoff">Comparing units near a cutoff</h3>
 <ul>
-<li class="fragment"><p>Some policies use <strong>clear rules or thresholds</strong></p>
+<li class="fragment">Some policies use <strong>clear rules or thresholds</strong>
 <ul>
-<li class="fragment">Elections, Welfare programs</li>
+<li class="fragment">Welfare programs, exams</li>
 </ul></li>
-<li class="fragment"><p>Example: <strong>Does tutoring improve student performance?</strong></p></li>
-<li class="fragment"><p>Problem: Students who do and do not get tutoring may already be different</p></li>
-<li class="fragment"><p>Policy: Students scoring <strong>70 or below</strong> get tutoring</p>
+<li class="fragment">Example: <strong>Does tutoring improve student performance?</strong>
+<ul>
+<li class="fragment">Selection bias: Wealth, family, neighborhood</li>
+</ul></li>
+</ul>
+<!-- - Problem: Students who do and do not get tutoring may already be different -->
+<ul>
+<li class="fragment">Policy: Students scoring <strong>70 or below</strong> get tutoring
 <ul>
 <li class="fragment">Compare students <strong>just below and just above 70</strong></li>
 </ul></li>
@@ -569,32 +1308,26 @@ Olgahan Çat (olgahan@brown.edu)
 <h2>Difference in Differences</h2>
 <h3 id="comparing-changes-over-time">Comparing changes over time</h3>
 <ul>
-<li class="fragment"><strong>Idea:</strong>
+<li class="fragment"><strong>Idea:</strong> <!-- - Compare how outcomes **change over time** between a treated group and a similar control group -->
 <ul>
-<li class="fragment">Compare how outcomes <strong>change over time</strong> between a treated group and a similar control group</li>
 <li class="fragment">Focus on differences in <strong>trends</strong>, not levels</li>
 </ul></li>
-</ul>
-</section>
-<section id="difference-in-differences-1" class="slide level2 center">
-<h2>Difference in Differences</h2>
-<h3 id="comparing-changes-over-time-1">Comparing changes over time</h3>
-<ul>
 <li class="fragment"><strong>Example:</strong> How do sanctions affect human rights violations?
 <ul>
-<li class="fragment">Two countries:
-<ul>
-<li class="fragment">One sanctioned (treated)</li>
-<li class="fragment">One not sanctioned (control)</li>
-</ul></li>
-<li class="fragment">Key assumption:
-<ul>
-<li class="fragment">Both countries followed <strong>similar trends before</strong> sanctions</li>
-</ul></li>
+<li class="fragment">Two countries: One sanctioned (treated), one not sanctioned (control)</li>
+<li class="fragment">Key assumption: Both countries followed <strong>similar trends before</strong> sanctions</li>
 </ul></li>
 </ul>
+<!-- ## Difference in Differences -->
+<!-- ### Comparing changes over time -->
+<!-- - **Example:** How do sanctions affect human rights violations? -->
+<!--   - Two countries: -->
+<!--     - One sanctioned (treated) -->
+<!--     - One not sanctioned (control) -->
+<!--   - Key assumption: -->
+<!--     - Both countries followed **similar trends before** sanctions -->
 </section>
-<section id="difference-in-differences-2" class="slide level2 center">
+<section id="difference-in-differences-1" class="slide level2 center">
 <h2>Difference in Differences</h2>
 <h3 id="compare-units-that-follow-similar-trends-the-treatment">Compare units that follow similar trends the treatment</h3>
 
@@ -605,25 +1338,48 @@ Olgahan Çat (olgahan@brown.edu)
 <ul>
 <li class="fragment">Instrumental variable</li>
 <li class="fragment">Synthetic control</li>
-<li class="fragment">Shared goal: <strong>imputing the counterfactual using appropriate the design</strong></li>
+<li class="fragment">Shared goal: <strong>imputing the counterfactual using the appropriate design</strong></li>
+</ul>
+</section>
+<section id="proportion-of-quantitative-political-science-papers-by-research-design" class="slide level2 center">
+<h2>Proportion of Quantitative Political Science papers by research design</h2>
+<div style="width:100%; text-align:center;">
+<p><img src="qps.png" style="width:35%;"></p>
+</div>
+<p><em>Source: Carolina Torreblanca</em></p>
+</section>
+<section id="last-but-not-least" class="slide level2 center">
+<h2>Last but not least</h2>
+<h3 id="sample-effect-neq-population-effect">Sample effect <span class="math inline">\(\neq\)</span> Population effect</h3>
+<ul>
+<li class="fragment">We almost always study a sample, <strong>not the whole population</strong></li>
+<li class="fragment">A sample might look different from the full population</li>
+<li class="fragment">Statistics gives us tools to estimate population patterns and <strong>measure uncertainty</strong></li>
+</ul>
+</section>
+<section id="last-but-not-least-1" class="slide level2 center">
+<h2>Last but not least</h2>
+<h3 id="data-work-requires-computation">Data work requires computation</h3>
+<ul>
+<li class="fragment">Computers do the work for us</li>
+<li class="fragment">Learning some <strong>programming</strong> is unavoidable (R, Python, Stata)</li>
+<li class="fragment">Luckily, LLMs (ChatGPT, Claude) <strong>lower the learning curve</strong></li>
+<li class="fragment">Use with care: <strong>they can be confidently wrong</strong></li>
 </ul>
 </section>
 <section id="takeaways" class="slide level2 center">
 <h2>Takeaways</h2>
-<h3 id="why-statistics-matters">Why statistics matters</h3>
+<h3 id="why-statistics-matters">Why statistics matters?</h3>
 <ul>
 <li class="fragment">Data don’t speak for themselves: they are produced, measured, and <strong>interpreted by humans.</strong></li>
-<li class="fragment">Statistical reasoning is <strong>powerful:</strong> bad data, poor comparisons, or <strong>naive interpretation can mislead.</strong></li>
+<li class="fragment">Statistical reasoning is <strong>powerful:</strong> naive interpretation can <strong>mislead.</strong></li>
+<li class="fragment"><strong>Analytical caution is a marketable skill anywhere data are used:</strong> policy, social science literacy, private sector, real-world decision-making. <!-- bad data, poor comparisons, or --></li>
 </ul>
-</section>
-<section id="takeaways-1" class="slide level2 center">
-<h2>Takeaways</h2>
-<h3 id="why-learn">Why learn?</h3>
-<ul>
-<li class="fragment"><strong>Policy relevance:</strong> make sense of interventions and their consequences.</li>
-<li class="fragment"><strong>Social science literacy:</strong> read and critique academic research confidently.</li>
-<li class="fragment"><strong>Real-world decision-making:</strong> informed skepticism is a marketable skill anywhere data are used.</li>
-</ul>
+<!-- ## Takeaways -->
+<!-- ### Why learn? -->
+<!-- - **Policy relevance:** make sense of interventions and their consequences. -->
+<!-- - **Social science literacy:** read and critique academic research confidently. -->
+<!-- - **Real-world decision-making:** analytical caution is a marketable skill anywhere data are used. -->
 </section>
 <section id="thank-you" class="slide level2 center">
 <h2>Thank You</h2>
@@ -823,7 +1579,7 @@ Olgahan Çat (olgahan@brown.edu)
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -849,191 +1605,212 @@ Olgahan Çat (olgahan@brown.edu)
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-      const toggleBodyColorMode = (bsSheetEl) => {
-        const mode = bsSheetEl.getAttribute("data-mode");
-        const bodyEl = window.document.querySelector("body");
-        if (mode === "dark") {
-          bodyEl.classList.add("quarto-dark");
-          bodyEl.classList.remove("quarto-light");
-        } else {
-          bodyEl.classList.add("quarto-light");
-          bodyEl.classList.remove("quarto-dark");
-        }
-      }
-      const toggleBodyColorPrimary = () => {
-        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-        if (bsSheetEl) {
-          toggleBodyColorMode(bsSheetEl);
-        }
-      }
-      toggleBodyColorPrimary();  
-      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
-      tabsets.forEach(function(tabset) {
-        const tabby = new Tabby('#' + tabset.id);
-      });
-      const isCodeAnnotation = (el) => {
-        for (const clz of el.classList) {
-          if (clz.startsWith('code-annotation-')) {                     
-            return true;
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
           }
+          return false;
         }
-        return false;
-      }
-      const onCopySuccess = function(e) {
-        // button target
-        const button = e.trigger;
-        // don't keep focus
-        button.blur();
-        // flash "checked"
-        button.classList.add('code-copy-button-checked');
-        var currentTitle = button.getAttribute("title");
-        button.setAttribute("title", "Copied!");
-        let tooltip;
-        if (window.bootstrap) {
-          button.setAttribute("data-bs-toggle", "tooltip");
-          button.setAttribute("data-bs-placement", "left");
-          button.setAttribute("data-bs-title", "Copied!");
-          tooltip = new bootstrap.Tooltip(button, 
-            { trigger: "manual", 
-              customClass: "code-copy-button-tooltip",
-              offset: [0, -8]});
-          tooltip.show();    
-        }
-        setTimeout(function() {
-          if (tooltip) {
-            tooltip.hide();
-            button.removeAttribute("data-bs-title");
-            button.removeAttribute("data-bs-toggle");
-            button.removeAttribute("data-bs-placement");
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
           }
-          button.setAttribute("title", currentTitle);
-          button.classList.remove('code-copy-button-checked');
-        }, 1000);
-        // clear code selection
-        e.clearSelection();
-      }
-      const getTextToCopy = function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
           for (const childEl of codeEl.children) {
             if (isCodeAnnotation(childEl)) {
               childEl.remove();
             }
           }
           return codeEl.innerText;
-      }
-      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-        text: getTextToCopy
-      });
-      clipboard.on('success', onCopySuccess);
-      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-          text: getTextToCopy,
-          container: window.document.getElementById('quarto-embedded-source-code-modal')
-        });
-        clipboardModal.on('success', onCopySuccess);
-      }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-        var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp('/' + window.location.host + '/');
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-            // undo the damage that might have been done by quarto-nav.js in the case of
-            // links that we want to consider external
-            if (link.dataset.originalHref !== undefined) {
-              link.href = link.dataset.originalHref;
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
             }
           }
-        }
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-        const config = {
-          allowHTML: true,
-          maxWidth: 500,
-          delay: 100,
-          arrow: false,
-          appendTo: function(el) {
-              return el.closest('section.slide') || el.parentElement;
-          },
-          interactive: true,
-          interactiveBorder: 10,
-          theme: 'light-border',
-          placement: 'bottom-start',
-        };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
-          config['offset'] = [0,0];
-          config['maxWidth'] = 700;
-        window.tippy(el, config); 
-      }
-      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-      for (var i=0; i<noterefs.length; i++) {
-        const ref = noterefs[i];
-        tippyHover(ref, function() {
-          // use id or data attribute instead here
-          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-          try { href = new URL(href).hash; } catch {}
-          const id = href.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note) {
-            return note.innerHTML;
-          } else {
-            return "";
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
           }
-        });
-      }
-      const findCites = (el) => {
-        const parentEl = el.parentElement;
-        if (parentEl) {
-          const cites = parentEl.dataset.cites;
-          if (cites) {
-            return {
-              el,
-              cites: cites.split(' ')
-            };
-          } else {
-            return findCites(el.parentElement)
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
           }
-        } else {
-          return undefined;
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
         }
-      };
-      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-      for (var i=0; i<bibliorefs.length; i++) {
-        const ref = bibliorefs[i];
-        const citeInfo = findCites(ref);
-        if (citeInfo) {
-          tippyHover(citeInfo.el, function() {
-            var popup = window.document.createElement('div');
-            citeInfo.cites.forEach(function(cite) {
-              var citeDiv = window.document.createElement('div');
-              citeDiv.classList.add('hanging-indent');
-              citeDiv.classList.add('csl-entry');
-              var biblioDiv = window.document.getElementById('ref-' + cite);
-              if (biblioDiv) {
-                citeDiv.innerHTML = biblioDiv.innerHTML;
-              }
-              popup.appendChild(citeDiv);
-            });
-            return popup.innerHTML;
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
           });
         }
-      }
-    });
-    </script>
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
     
 
 </body></html>
