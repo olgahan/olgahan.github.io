@@ -10,7 +10,7 @@ nav_order: 4
 ## Courses:
 
 - **Statistics I (PhD)**, Brown University, Fall 2025 (Co-instructed with [Paul Testa](https://paultesta.org))  
-  [Evaluations report](/assets/pdf/evalstats.pdf) | Mean: **5.0/5.0** across five items. (N = 2/10)
+  [Evaluations report](/assets/pdf/evalstats.pdf) | Mean: **5.0/5.0** across five evaluation items. (N = 2/10)
 
 
 - **Causal Inference (PhD)**, Brown University, Fall 2025  
