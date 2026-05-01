@@ -6,7 +6,7 @@ title: Olgahan Cat
 first_name: Olgahan
 middle_name: 
 last_name: Çat
-email: you@example.com
+email: olgahan@brown.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of Olgahan Cat – cv, research, and teaching.
 footer_text: >
@@ -69,8 +69,8 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
