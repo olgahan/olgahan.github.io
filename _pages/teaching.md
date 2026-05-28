@@ -19,5 +19,5 @@ nav_order: 4
 
 - **Statistics II (PhD)**, Brown University, Spring 2026
 
-- **Experimental Methods (PhD)**, Brown University, Spring 2026
+- **Public Opinion and American Democracy (undergraduate)**, Brown University, Spring 2026 (Co-instructed with [Paul Testa](https://paultesta.org)) 
 
