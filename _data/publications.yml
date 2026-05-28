@@ -77,31 +77,14 @@
 
 
 
-- title: "Projected Patriotism and Its Determinants"
+- title: "Who Should Be Patriotic: Projected Patriotism and Its Determinants"
   type: "working-paper"
   note: "Available upon request"
   link_label: "Draft"
   stage: "Under review"
   link: "/assets/pdf/PP1.pdf"
   abstract: >
-    What do individuals expect regarding the patriotism of others, especially those outside their own national group? 
-    While existing research has focused extensively on one’s own attachment to the nation—ranging from blind loyalty 
-    to constructive critique - less is known about the normative expectations people hold about others’ patriotic feelings.
-    This paper introduces Projected Patriotism, defined as the belief that outgroup members, particularly migrants, ought 
-    to exhibit patriotic attachment to their country of origin. I hypothesize that Projected Patriotism operates as a distinct,
-    outward-facing dimension of national identification, shaped by symbolic attachments and political context, and that exposure
-    to elite threat rhetoric increases its expression. The study tests these hypotheses in two diverse national contexts: the United States, 
-    a developed liberal democracy with institutionalized refugee vetting, and Turkey, a developing country facing large-scale, 
-    visible refugee arrivals linked to regional instability. Quantitative analysis reveals that Projected Patriotism is 
-    moderately correlated with Blind Patriotism but remains conceptually distinct, reflecting moral expectations rather than
-    personal loyalty. Elite rhetoric framing refugees as threats - economic and cultural in the U.S., security and economic 
-    in Turkey - significantly heightens levels of Projected Patriotism. Furthermore, stronger affective attachment to national 
-    symbols consistently predicts greater endorsement of Projected Patriotism across both contexts. These findings have important
-    implications for understanding attitudes toward migration voluntariness. Individuals high in Projected Patriotism may be
-    more inclined to question the deservingness of refugees when their flight is viewed as a voluntary choice rather than an 
-    involuntary necessity. This highlights Projected Patriotism as a contextually responsive and symbolically grounded attitude
-    that shapes public opinion about migrants’ loyalty and worthiness, offering important contributions to scholarship on national
-    identity, migration politics, and political polarization across varied political settings.
+    What do individuals expect regarding the patriotism of others, especially out-group members? This paper introduces Projected Patriotism, defined as the belief that out- group members, particularly migrants, should exhibit patriotic attachment to their country of origin. I argue that Projected Patriotism is a distinct, outward-facing di- mension of national identification, shaped by symbolic attachments and elite threat rhetoric. Using pre-registered survey experiments in the United States, a developed democracy with institutionalized refugee vetting, and Turkey, a developing country fac- ing large-scale refugee inflows, I test how exposure to economic, cultural, and security frames influences its expression. Results show that Projected Patriotism is moderately correlated with existing patriotism measures but conceptually distinct, reflecting nor- mative expectations rather than personal loyalty. Exposure to elite rhetoric framing migrants as threats significantly increases endorsement of Projected Patriotism in both contexts, and stronger attachment to national symbols consistently predicts higher levels. These findings establish Projected Patriotism as a distinct, context-sensitive attitude that shapes how publics evaluate migrants’ loyalty and deservingness — with implications for migration politics, national identity research, and the study of political polarization.
     <br><br>
     <img src="/assets/img/pp1corr.png" alt="" style="max-width:70%; margin-top:1em;">
 
@@ -142,36 +125,32 @@
 
 
 - title: "The Legitimacy of Wartime Emigration: Evidence from a Conjoint Experiment in Ukraine"
-  coauthors: "with Betty Compton, Roman Hlatky, Holly Jansen, Amy Liu, and Eoin Power"
+  coauthors: "with Roman Hlatky, Laura Linkeschova and Amy Liu"
   type: "working-paper"
   note: "Available upon request"
   stage: "Under review"
   #link_label: "Pre-Analysis Plan"
   #link: "/assets/pdf/Emig_draft.pdf"
   abstract: >
-    Why do some citizens support wartime emigration while others oppose it? Wartime emigration activates moral heuristics 
-    grounded in perceived vulnerability, civic duty, and merit. These heuristics shape judgments of departure legitimacy, 
-    depending on who leaves, why, and under what conditions. Prior research largely focuses on how host-country publics 
-    respond to immigrants, leaving open how wartime emigration is judged by those who stay behind. They offer a broader 
-    framework for how moral expectations structure emigration decisions during crisis. The legitimacy of exit during 
-    armed conflict poses moral and political dilemmas for those who remain; leaving may signal vulnerability and 
-    necessity or suggest disloyalty and avoidance of obligation. We field a paired-profile conjoint experiment in a 
-    2023 survey of Ukrainian citizens to examine how the identity and motivations of emigrants shape public evaluations 
-    of wartime departure. Respondents evaluated hypothetical profiles on support for departure, perceived right to leave, 
-    and preference for government restriction. These outcomes reflect distinct moral intuitions about compassion, 
-    entitlement, and obligation. Judgments reflect overlapping heuristics of humanitarian concern, civic obligation,
-    and merit-based recognition. Mothers fleeing bombardment receive strong support, while conscription-age men receive 
-    lower support, especially when departure is framed as voluntary. Highly educated or urban profiles elicit ambivalence, 
-    as their symbolic contribution to national cohesion may heighten perceptions of loss when they emigrate. These 
-    findings show how wartime conditions structure civic expectations and inform moral assessments of emigration. 
-    We argue that such judgments are structured by civic obligation, vulnerability, and perceived necessity. Departures 
-    viewed as elective rather than survival-driven provoke sharper moral resistance, particularly when civic expectations
-    of sacrifice remain salient under threat.
+    Russia’s full-scale invasion forced nearly six million people to flee Ukraine between
+    2022 and 2025. While existing work has largely focused on tolerance in refugee-receiving states,
+    we shift attention to how citizens in origin countries evaluate wartime emigration – an outcome of
+    significant importance for post-conflict social cohesion. We contend that attitudes towards wartime
+    emigration depend on perceptions of duty – expectations about who has an obligation to remain
+    and contribute – and deservingness – judgments about whether departure is justified or warranted.
+    To evaluate, we fielded a conjoint experiment with Ukrainian citizens (N=1,601), asking respon-
+    dents to assess not only (1) the legitimacy of emigration, but also (2) the government’s right to
+    stop individuals from leaving Ukraine. Citizens endorse departures when emigrant characteristics
+    signal vulnerability, but oppose exit when profiles indicate dereliction of duty. Additionally, the
+    gender of the emigrant structures these perceptions: respondents express greater support for the
+    emigration of women than for the emigration of men with otherwise identical profiles. In sum,
+    citizens judge wartime emigration as a moral act embedded in gendered, duty-based expectations
+    of citizenship.
     <br><br>
     <img src="/assets/img/amce_emig_binary.png" alt="" style="max-width:70%; margin-top:1em;">
 
 - title: "Moral Judgments Under Fire: Gender, Ethnicity, and Recognition in Ukraine"
-  coauthors: "with Betty Compton, Roman Hlatky, Holly Jansen, Amy Liu, and Eoin Power"
+  coauthors: "with Roman Hlatky, Laura Linkeschova and Amy Liu"
   type: "working-paper"
   note: "Available upon request"
   stage: "Pre-submission"
@@ -218,85 +197,6 @@
     historical perceptions of suffering.
     <br><br>
     <img src="/assets/img/russo1.png" alt="" style="max-width:70%; margin-top:1em;">
-
-- title: "How Does Migration Shape Views on Immigration? A Quasi-Natural Experiment"
-  type: "wip"
-  note: "Available upon request"
-  stage: "Pilot"
-  #link_label: "Pre-Analysis Plan"
-  #link: "/assets/pdf/PAP_GC.pdf"
-  abstract: >
-    This paper examines how international migration shapes attitudes toward immigration by leveraging a quasi-natural 
-    experiment based on the U.S. Diversity Visa (DV) Lottery. Exploiting the near-random selection of migrants, I compare 
-    lottery winners who resettle in the United States to non-winners who remain in their countries of origin. Drawing on competing 
-    theoretical expectations, I test whether migration experience fosters greater empathy and solidarity with migrants—thereby 
-    increasing support for immigration—or whether it reinforces exclusionary boundary-making that distinguishes between legal and 
-    unauthorized migrants. Using survey data capturing attitudes toward immigration in both origin and destination contexts, 
-    including perceptions of deservingness and legality, this study offers causal evidence on how migration transforms political 
-    preferences. The findings contribute to debates on migrant political incorporation, identity formation, and the broader 
-    dynamics of immigration attitudes in an era of increasing global mobility.
-    <br><br>
-    <img src="/assets/img/gc_plot.png" alt="" style="max-width:70%; margin-top:1em;">
-
-
-
-- title: "AI at the Gates: Public Support for Technology-Driven Migration Governance"
-  type: "wip"
-  note: "Available upon request"
-  stage: "Pilot"
-  #link_label: "Pre-Analysis Plan"
-  #link: "/assets/pdf/PAP_AI.pdf"
-  abstract: >
-    Governments are increasingly adopting artificial intelligence (AI) to process asylum applications, raising concerns about 
-    transparency, fairness, and the legitimacy of decisions affecting vulnerable populations. This study examines how AI use in 
-    asylum adjudication shapes public perceptions of procedural fairness and asylum seekers’ deservingness. Using a preregistered 
-    survey experiment with a nationally representative sample of U.S. adults, we manipulate three factors: whether the decision is 
-    made by a human adjudicator or an AI system, whether the AI system is transparent or opaque, and whether the applicant uses legal 
-    aid or an AI-based application tool. We hypothesize that opaque AI decision-making will reduce perceived fairness, that applicants 
-    relying on AI tools will be judged as less deserving, and that transparency will attenuate negative perceptions of AI use. Outcomes 
-    include fairness assessments, perceived deservingness, support for granting asylum, and trust in the asylum system. This project
-    advances research on forced migration, bureaucratic legitimacy, and the ethics of automated governance, highlighting how 
-    technological mediation can alter public support for both institutions and the individuals they serve.
-
-- title: "Foreign Aid, Border Enforcement, and Public Opinion on U.S. Migration Policy"
-  type: "wip"
-  note: "Available upon request"
-  stage: "Pilot"
-  #link_label: "Pre-Analysis Plan"
-  #link: "/assets/pdf/PAP_AID.pdf"
-  abstract: >
-    Debates over U.S. migration policy often frame foreign aid to refugee-hosting countries and domestic border enforcement as 
-    competing strategies to address forced displacement. This study examines how Americans evaluate trade-offs between these approaches
-    when they are presented as alternative budget priorities. Using a preregistered conjoint experiment with a nationally representative
-    sample of U.S. adults, respondents will evaluate spending packages that vary in foreign aid recipient characteristics, 
-    refugee-hosting burdens, aid purpose, and border enforcement type, cost, and framing. We hypothesize that support for foreign 
-    aid will increase when recipients host large refugee populations and when aid is framed as preventing onward migration to the
-    United States, but that border enforcement will remain the baseline preference—except when aid is both burden-sharing and 
-    migration-preventive. We further expect preferences to vary by political ideology, immigration threat perceptions, and national 
-    identity. This project contributes to research on foreign aid, migration politics, and public opinion by testing how strategic 
-    framing and policy trade-offs shape citizens’ willingness to support international versus domestic responses to displacement.
-
-
-
-- title: "Home is Where the Bias is: A Field Experiment on Bias in Refugee Housing Search"
-  coauthors: "with Danny Cowser"
-  type: "wip"
-  note: "Available upon request"
-  stage: "Pilot"
-  #link_label: "Pre-Analysis Plan"
-  #link: "/assets/pdf/PAP_Casa.pdf"
-  abstract: >
-    What drives discrimination against refugees in the housing market? We address this question with a field experiment in
-    measuring landlords’ behavioral responses to rental inquiries. In partnership with Casa Marianella, 
-    an NGO serving refugees in Austin, Texas, we collaborate with refugee residents to send realistic, varied messages on behalf of them
-    to landlords advertising properties on major online platforms. We experimentally manipulate three applicant attributes: 
-    perceived racial/ethnic identity, gender, and whether the inquiry includes an NGO endorsement - an innovative treatment 
-    that signals organizational support and credibility. Messages are crafted to be comparable across conditions while avoiding 
-    detection through excessive similarity. Our outcomes capture multiple dimensions of access: whether a reply is received, 
-    the length of the response, and the helpfulness of the information provided. This design moves beyond stated attitudes 
-    to observe actual landlord behavior, generating causal evidence on how race, gender, and institutional endorsement 
-    influence refugees’ access to rental housing in a competitive urban market.
-
 
 
 
